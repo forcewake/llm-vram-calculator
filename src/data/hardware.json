@@ -1,0 +1,3314 @@
+[
+  {
+    "id": "b200-180",
+    "vendor": "NVIDIA",
+    "name": "B200",
+    "memoryGb": 180,
+    "bandwidthGbps": 8000,
+    "powerW": 1000,
+    "priceHour": 5.25,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA DGX B200 specifications",
+        "url": "https://www.nvidia.com/en-us/data-center/dgx-b200/",
+        "claim": "Supports vendor source identity for NVIDIA B200.",
+        "quote": "DGX B200: The Foundation for Your AI Factory | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/dgx-b200/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "b300-288",
+    "vendor": "NVIDIA",
+    "name": "B300 Blackwell Ultra",
+    "memoryGb": 288,
+    "bandwidthGbps": 8000,
+    "powerW": 1400,
+    "priceHour": 7.5,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA DGX B300 specifications",
+        "url": "https://www.nvidia.com/en-us/data-center/dgx-b300/",
+        "claim": "Supports vendor source identity for NVIDIA B300 Blackwell Ultra.",
+        "quote": "An AI Factory for AI Reasoning NVIDIA DGX B300",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/dgx-b300/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "dgx-b200-1440",
+    "vendor": "NVIDIA",
+    "name": "DGX B200",
+    "memoryGb": 1440,
+    "bandwidthGbps": 64000,
+    "powerW": 14300,
+    "priceHour": 42,
+    "type": "AI System",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA DGX B200 specifications",
+        "url": "https://www.nvidia.com/en-us/data-center/dgx-b200/",
+        "claim": "Supports vendor source identity for NVIDIA DGX B200.",
+        "quote": "DGX B200: The Foundation for Your AI Factory | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/dgx-b200/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "dgx-b300-2304",
+    "vendor": "NVIDIA",
+    "name": "DGX B300",
+    "memoryGb": 2304,
+    "bandwidthGbps": 64000,
+    "powerW": 14500,
+    "priceHour": 55,
+    "type": "AI System",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA DGX B300 specifications",
+        "url": "https://www.nvidia.com/en-us/data-center/dgx-b300/",
+        "claim": "Supports vendor source identity for NVIDIA DGX B300.",
+        "quote": "An AI Factory for AI Reasoning NVIDIA DGX B300",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/dgx-b300/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "gb200-superchip-384",
+    "vendor": "NVIDIA",
+    "name": "GB200 Grace Blackwell Superchip",
+    "memoryGb": 384,
+    "bandwidthGbps": 16000,
+    "powerW": 2700,
+    "priceHour": 16,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GB200/GB300 NVL platform specifications",
+        "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+        "claim": "Supports vendor source identity for NVIDIA GB200 Grace Blackwell Superchip.",
+        "quote": "GB200 NVL72 | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "gb200-nvl72-13400",
+    "vendor": "NVIDIA",
+    "name": "GB200 NVL72 Rack",
+    "memoryGb": 13400,
+    "bandwidthGbps": 576000,
+    "powerW": 120000,
+    "priceHour": 450,
+    "type": "AI System",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GB200/GB300 NVL platform specifications",
+        "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+        "claim": "Supports vendor source identity for NVIDIA GB200 NVL72 Rack.",
+        "quote": "GB200 NVL72 | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "gb300-superchip-576",
+    "vendor": "NVIDIA",
+    "name": "GB300 Grace Blackwell Ultra Superchip",
+    "memoryGb": 576,
+    "bandwidthGbps": 24000,
+    "powerW": 3100,
+    "priceHour": 24,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GB200/GB300 NVL platform specifications",
+        "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+        "claim": "Supports vendor source identity for NVIDIA GB300 Grace Blackwell Ultra Superchip.",
+        "quote": "GB200 NVL72 | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "gb300-nvl72-20000",
+    "vendor": "NVIDIA",
+    "name": "GB300 NVL72 Rack",
+    "memoryGb": 20000,
+    "bandwidthGbps": 576000,
+    "powerW": 140000,
+    "priceHour": 560,
+    "type": "AI System",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GB200/GB300 NVL platform specifications",
+        "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+        "claim": "Supports vendor source identity for NVIDIA GB300 NVL72 Rack.",
+        "quote": "GB200 NVL72 | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "h200-141",
+    "vendor": "NVIDIA",
+    "name": "H200",
+    "memoryGb": 141,
+    "bandwidthGbps": 4800,
+    "powerW": 700,
+    "priceHour": 4.2,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA H200 product page",
+        "url": "https://www.nvidia.com/en-us/data-center/h200/",
+        "claim": "Supports vendor source identity for NVIDIA H200.",
+        "quote": "H200 GPU | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/h200/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "h200-nvl-141",
+    "vendor": "NVIDIA",
+    "name": "H200 NVL",
+    "memoryGb": 141,
+    "bandwidthGbps": 4800,
+    "powerW": 600,
+    "priceHour": 4,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA H200 product page",
+        "url": "https://www.nvidia.com/en-us/data-center/h200/",
+        "claim": "Supports vendor source identity for NVIDIA H200 NVL.",
+        "quote": "H200 GPU | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/h200/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "h100-sxm-80",
+    "vendor": "NVIDIA",
+    "name": "H100 SXM",
+    "memoryGb": 80,
+    "bandwidthGbps": 3350,
+    "powerW": 700,
+    "priceHour": 2.7,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA H100 product page",
+        "url": "https://www.nvidia.com/en-us/data-center/h100/",
+        "claim": "Supports vendor source identity for NVIDIA H100 SXM.",
+        "quote": "H100 GPU | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/h100/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "h100-pcie-80",
+    "vendor": "NVIDIA",
+    "name": "H100 PCIe",
+    "memoryGb": 80,
+    "bandwidthGbps": 2000,
+    "powerW": 350,
+    "priceHour": 2.35,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA H100 product page",
+        "url": "https://www.nvidia.com/en-us/data-center/h100/",
+        "claim": "Supports vendor source identity for NVIDIA H100 PCIe.",
+        "quote": "H100 GPU | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/h100/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "a100-80",
+    "vendor": "NVIDIA",
+    "name": "A100",
+    "memoryGb": 80,
+    "bandwidthGbps": 2039,
+    "powerW": 400,
+    "priceHour": 1.65,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA A100 product page",
+        "url": "https://www.nvidia.com/en-us/data-center/a100/",
+        "claim": "Supports vendor source identity for NVIDIA A100.",
+        "quote": "NVIDIA A100 | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/a100/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "a100-40",
+    "vendor": "NVIDIA",
+    "name": "A100",
+    "memoryGb": 40,
+    "bandwidthGbps": 1555,
+    "powerW": 400,
+    "priceHour": 1.1,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA A100 product page",
+        "url": "https://www.nvidia.com/en-us/data-center/a100/",
+        "claim": "Supports vendor source identity for NVIDIA A100.",
+        "quote": "NVIDIA A100 | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/a100/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "l40s",
+    "vendor": "NVIDIA",
+    "name": "L40S",
+    "memoryGb": 48,
+    "bandwidthGbps": 864,
+    "powerW": 350,
+    "priceHour": 0.78,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA data center GPU product pages",
+        "url": "https://www.nvidia.com/en-us/data-center/products/",
+        "claim": "Supports vendor source identity for NVIDIA L40S.",
+        "quote": "Accelerating the Next Wave of AI Innovation | NVIDIA Data Center Products",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/products/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "NVIDIA GPU documentation",
+        "url": "https://docs.nvidia.com/datacenter/tesla/",
+        "claim": "Supports documented runtime or hardware context for NVIDIA L40S.",
+        "quote": "NVIDIA Data Center GPU Driver Documentation",
+        "quoteUrl": "https://docs.nvidia.com/datacenter/tesla/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "l40",
+    "vendor": "NVIDIA",
+    "name": "L40",
+    "memoryGb": 48,
+    "bandwidthGbps": 864,
+    "powerW": 300,
+    "priceHour": 0.66,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA data center GPU product pages",
+        "url": "https://www.nvidia.com/en-us/data-center/products/",
+        "claim": "Supports vendor source identity for NVIDIA L40.",
+        "quote": "Accelerating the Next Wave of AI Innovation | NVIDIA Data Center Products",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/products/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "NVIDIA GPU documentation",
+        "url": "https://docs.nvidia.com/datacenter/tesla/",
+        "claim": "Supports documented runtime or hardware context for NVIDIA L40.",
+        "quote": "NVIDIA Data Center GPU Driver Documentation",
+        "quoteUrl": "https://docs.nvidia.com/datacenter/tesla/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "l4",
+    "vendor": "NVIDIA",
+    "name": "L4",
+    "memoryGb": 24,
+    "bandwidthGbps": 300,
+    "powerW": 72,
+    "priceHour": 0.23,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA data center GPU product pages",
+        "url": "https://www.nvidia.com/en-us/data-center/products/",
+        "claim": "Supports vendor source identity for NVIDIA L4.",
+        "quote": "Accelerating the Next Wave of AI Innovation | NVIDIA Data Center Products",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/products/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "NVIDIA GPU documentation",
+        "url": "https://docs.nvidia.com/datacenter/tesla/",
+        "claim": "Supports documented runtime or hardware context for NVIDIA L4.",
+        "quote": "NVIDIA Data Center GPU Driver Documentation",
+        "quoteUrl": "https://docs.nvidia.com/datacenter/tesla/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "a40",
+    "vendor": "NVIDIA",
+    "name": "A40",
+    "memoryGb": 48,
+    "bandwidthGbps": 696,
+    "powerW": 300,
+    "priceHour": 0.48,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA data center GPU product pages",
+        "url": "https://www.nvidia.com/en-us/data-center/products/",
+        "claim": "Supports vendor source identity for NVIDIA A40.",
+        "quote": "Accelerating the Next Wave of AI Innovation | NVIDIA Data Center Products",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/products/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "NVIDIA GPU documentation",
+        "url": "https://docs.nvidia.com/datacenter/tesla/",
+        "claim": "Supports documented runtime or hardware context for NVIDIA A40.",
+        "quote": "NVIDIA Data Center GPU Driver Documentation",
+        "quoteUrl": "https://docs.nvidia.com/datacenter/tesla/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "a30",
+    "vendor": "NVIDIA",
+    "name": "A30",
+    "memoryGb": 24,
+    "bandwidthGbps": 933,
+    "powerW": 165,
+    "priceHour": 0.38,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA data center GPU product pages",
+        "url": "https://www.nvidia.com/en-us/data-center/products/",
+        "claim": "Supports vendor source identity for NVIDIA A30.",
+        "quote": "Accelerating the Next Wave of AI Innovation | NVIDIA Data Center Products",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/products/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "NVIDIA GPU documentation",
+        "url": "https://docs.nvidia.com/datacenter/tesla/",
+        "claim": "Supports documented runtime or hardware context for NVIDIA A30.",
+        "quote": "NVIDIA Data Center GPU Driver Documentation",
+        "quoteUrl": "https://docs.nvidia.com/datacenter/tesla/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "a16",
+    "vendor": "NVIDIA",
+    "name": "A16",
+    "memoryGb": 64,
+    "bandwidthGbps": 800,
+    "powerW": 250,
+    "priceHour": 0.32,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA data center GPU product pages",
+        "url": "https://www.nvidia.com/en-us/data-center/products/",
+        "claim": "Supports vendor source identity for NVIDIA A16.",
+        "quote": "Accelerating the Next Wave of AI Innovation | NVIDIA Data Center Products",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/products/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "NVIDIA GPU documentation",
+        "url": "https://docs.nvidia.com/datacenter/tesla/",
+        "claim": "Supports documented runtime or hardware context for NVIDIA A16.",
+        "quote": "NVIDIA Data Center GPU Driver Documentation",
+        "quoteUrl": "https://docs.nvidia.com/datacenter/tesla/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "a10g",
+    "vendor": "NVIDIA",
+    "name": "A10G",
+    "memoryGb": 24,
+    "bandwidthGbps": 600,
+    "powerW": 150,
+    "priceHour": 0.75,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA data center GPU product pages",
+        "url": "https://www.nvidia.com/en-us/data-center/products/",
+        "claim": "Supports vendor source identity for NVIDIA A10G.",
+        "quote": "Accelerating the Next Wave of AI Innovation | NVIDIA Data Center Products",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/products/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "NVIDIA GPU documentation",
+        "url": "https://docs.nvidia.com/datacenter/tesla/",
+        "claim": "Supports documented runtime or hardware context for NVIDIA A10G.",
+        "quote": "NVIDIA Data Center GPU Driver Documentation",
+        "quoteUrl": "https://docs.nvidia.com/datacenter/tesla/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "a10",
+    "vendor": "NVIDIA",
+    "name": "A10",
+    "memoryGb": 24,
+    "bandwidthGbps": 600,
+    "powerW": 150,
+    "priceHour": 0.5,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA data center GPU product pages",
+        "url": "https://www.nvidia.com/en-us/data-center/products/",
+        "claim": "Supports vendor source identity for NVIDIA A10.",
+        "quote": "Accelerating the Next Wave of AI Innovation | NVIDIA Data Center Products",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/products/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "NVIDIA GPU documentation",
+        "url": "https://docs.nvidia.com/datacenter/tesla/",
+        "claim": "Supports documented runtime or hardware context for NVIDIA A10.",
+        "quote": "NVIDIA Data Center GPU Driver Documentation",
+        "quoteUrl": "https://docs.nvidia.com/datacenter/tesla/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "a2",
+    "vendor": "NVIDIA",
+    "name": "A2",
+    "memoryGb": 16,
+    "bandwidthGbps": 200,
+    "powerW": 60,
+    "priceHour": 0.12,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA data center GPU product pages",
+        "url": "https://www.nvidia.com/en-us/data-center/products/",
+        "claim": "Supports vendor source identity for NVIDIA A2.",
+        "quote": "Accelerating the Next Wave of AI Innovation | NVIDIA Data Center Products",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/products/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "NVIDIA GPU documentation",
+        "url": "https://docs.nvidia.com/datacenter/tesla/",
+        "claim": "Supports documented runtime or hardware context for NVIDIA A2.",
+        "quote": "NVIDIA Data Center GPU Driver Documentation",
+        "quoteUrl": "https://docs.nvidia.com/datacenter/tesla/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "t4",
+    "vendor": "NVIDIA",
+    "name": "T4",
+    "memoryGb": 16,
+    "bandwidthGbps": 320,
+    "powerW": 70,
+    "priceHour": 0.11,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA data center GPU product pages",
+        "url": "https://www.nvidia.com/en-us/data-center/products/",
+        "claim": "Supports vendor source identity for NVIDIA T4.",
+        "quote": "Accelerating the Next Wave of AI Innovation | NVIDIA Data Center Products",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/products/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "NVIDIA GPU documentation",
+        "url": "https://docs.nvidia.com/datacenter/tesla/",
+        "claim": "Supports documented runtime or hardware context for NVIDIA T4.",
+        "quote": "NVIDIA Data Center GPU Driver Documentation",
+        "quoteUrl": "https://docs.nvidia.com/datacenter/tesla/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "v100-32",
+    "vendor": "NVIDIA",
+    "name": "V100",
+    "memoryGb": 32,
+    "bandwidthGbps": 900,
+    "powerW": 300,
+    "priceHour": 0.55,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA data center GPU product pages",
+        "url": "https://www.nvidia.com/en-us/data-center/products/",
+        "claim": "Supports vendor source identity for NVIDIA V100.",
+        "quote": "Accelerating the Next Wave of AI Innovation | NVIDIA Data Center Products",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/products/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "NVIDIA GPU documentation",
+        "url": "https://docs.nvidia.com/datacenter/tesla/",
+        "claim": "Supports documented runtime or hardware context for NVIDIA V100.",
+        "quote": "NVIDIA Data Center GPU Driver Documentation",
+        "quoteUrl": "https://docs.nvidia.com/datacenter/tesla/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "v100-16",
+    "vendor": "NVIDIA",
+    "name": "V100",
+    "memoryGb": 16,
+    "bandwidthGbps": 900,
+    "powerW": 300,
+    "priceHour": 0.32,
+    "type": "Datacenter GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA data center GPU product pages",
+        "url": "https://www.nvidia.com/en-us/data-center/products/",
+        "claim": "Supports vendor source identity for NVIDIA V100.",
+        "quote": "Accelerating the Next Wave of AI Innovation | NVIDIA Data Center Products",
+        "quoteUrl": "https://www.nvidia.com/en-us/data-center/products/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "NVIDIA GPU documentation",
+        "url": "https://docs.nvidia.com/datacenter/tesla/",
+        "claim": "Supports documented runtime or hardware context for NVIDIA V100.",
+        "quote": "NVIDIA Data Center GPU Driver Documentation",
+        "quoteUrl": "https://docs.nvidia.com/datacenter/tesla/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "rtx-pro-6000-blackwell",
+    "vendor": "NVIDIA",
+    "name": "RTX PRO 6000 Blackwell",
+    "memoryGb": 96,
+    "bandwidthGbps": 1792,
+    "powerW": 600,
+    "priceHour": 0.95,
+    "type": "Workstation GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA professional visualization products",
+        "url": "https://www.nvidia.com/en-us/design-visualization/desktop-graphics/",
+        "claim": "Supports vendor source identity for NVIDIA RTX PRO 6000 Blackwell.",
+        "quote": "RTX PRO in Desktops | Built For Professionals | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/design-visualization/desktop-graphics/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX PRO 6000 Blackwell.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX PRO 6000 Blackwell.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX PRO 6000 Blackwell.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx6000ada",
+    "vendor": "NVIDIA",
+    "name": "RTX 6000 Ada",
+    "memoryGb": 48,
+    "bandwidthGbps": 960,
+    "powerW": 300,
+    "priceHour": 0.42,
+    "type": "Workstation GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA professional visualization products",
+        "url": "https://www.nvidia.com/en-us/design-visualization/desktop-graphics/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 6000 Ada.",
+        "quote": "RTX PRO in Desktops | Built For Professionals | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/design-visualization/desktop-graphics/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX 6000 Ada.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 6000 Ada.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX 6000 Ada.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx-a6000",
+    "vendor": "NVIDIA",
+    "name": "RTX A6000",
+    "memoryGb": 48,
+    "bandwidthGbps": 768,
+    "powerW": 300,
+    "priceHour": 0.32,
+    "type": "Workstation GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA professional visualization products",
+        "url": "https://www.nvidia.com/en-us/design-visualization/desktop-graphics/",
+        "claim": "Supports vendor source identity for NVIDIA RTX A6000.",
+        "quote": "RTX PRO in Desktops | Built For Professionals | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/design-visualization/desktop-graphics/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX A6000.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX A6000.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX A6000.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx-a5000",
+    "vendor": "NVIDIA",
+    "name": "RTX A5000",
+    "memoryGb": 24,
+    "bandwidthGbps": 768,
+    "powerW": 230,
+    "priceHour": 0.19,
+    "type": "Workstation GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA professional visualization products",
+        "url": "https://www.nvidia.com/en-us/design-visualization/desktop-graphics/",
+        "claim": "Supports vendor source identity for NVIDIA RTX A5000.",
+        "quote": "RTX PRO in Desktops | Built For Professionals | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/design-visualization/desktop-graphics/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX A5000.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX A5000.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX A5000.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx-a4500",
+    "vendor": "NVIDIA",
+    "name": "RTX A4500",
+    "memoryGb": 20,
+    "bandwidthGbps": 640,
+    "powerW": 200,
+    "priceHour": 0.16,
+    "type": "Workstation GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA professional visualization products",
+        "url": "https://www.nvidia.com/en-us/design-visualization/desktop-graphics/",
+        "claim": "Supports vendor source identity for NVIDIA RTX A4500.",
+        "quote": "RTX PRO in Desktops | Built For Professionals | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/design-visualization/desktop-graphics/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX A4500.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX A4500.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX A4500.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx-a4000",
+    "vendor": "NVIDIA",
+    "name": "RTX A4000",
+    "memoryGb": 16,
+    "bandwidthGbps": 448,
+    "powerW": 140,
+    "priceHour": 0.12,
+    "type": "Workstation GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA professional visualization products",
+        "url": "https://www.nvidia.com/en-us/design-visualization/desktop-graphics/",
+        "claim": "Supports vendor source identity for NVIDIA RTX A4000.",
+        "quote": "RTX PRO in Desktops | Built For Professionals | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/design-visualization/desktop-graphics/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX A4000.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX A4000.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX A4000.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "w7900",
+    "vendor": "AMD",
+    "name": "Radeon PRO W7900",
+    "memoryGb": 48,
+    "bandwidthGbps": 864,
+    "powerW": 295,
+    "priceHour": 0.2,
+    "type": "Workstation GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Radeon PRO workstation graphics",
+        "url": "https://www.amd.com/en/products/graphics/workstations.html",
+        "claim": "Supports vendor source identity for AMD Radeon PRO W7900.",
+        "quote": "AMD Radeon™ PRO Graphics for Professionals, Creators, and Artists",
+        "quoteUrl": "https://www.amd.com/en/products/graphics/workstations.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for AMD Radeon PRO W7900.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "w7800",
+    "vendor": "AMD",
+    "name": "Radeon PRO W7800",
+    "memoryGb": 32,
+    "bandwidthGbps": 576,
+    "powerW": 260,
+    "priceHour": 0.16,
+    "type": "Workstation GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Radeon PRO workstation graphics",
+        "url": "https://www.amd.com/en/products/graphics/workstations.html",
+        "claim": "Supports vendor source identity for AMD Radeon PRO W7800.",
+        "quote": "AMD Radeon™ PRO Graphics for Professionals, Creators, and Artists",
+        "quoteUrl": "https://www.amd.com/en/products/graphics/workstations.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for AMD Radeon PRO W7800.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "w7700",
+    "vendor": "AMD",
+    "name": "Radeon PRO W7700",
+    "memoryGb": 16,
+    "bandwidthGbps": 576,
+    "powerW": 190,
+    "priceHour": 0.12,
+    "type": "Workstation GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Radeon PRO workstation graphics",
+        "url": "https://www.amd.com/en/products/graphics/workstations.html",
+        "claim": "Supports vendor source identity for AMD Radeon PRO W7700.",
+        "quote": "AMD Radeon™ PRO Graphics for Professionals, Creators, and Artists",
+        "quoteUrl": "https://www.amd.com/en/products/graphics/workstations.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for AMD Radeon PRO W7700.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx5090",
+    "vendor": "NVIDIA",
+    "name": "RTX 5090",
+    "memoryGb": 32,
+    "bandwidthGbps": 1792,
+    "powerW": 575,
+    "priceHour": 0.12,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 5090.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX 5090.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX 5090.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx5080",
+    "vendor": "NVIDIA",
+    "name": "RTX 5080",
+    "memoryGb": 16,
+    "bandwidthGbps": 960,
+    "powerW": 360,
+    "priceHour": 0.09,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 5080.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX 5080.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX 5080.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx4090",
+    "vendor": "NVIDIA",
+    "name": "RTX 4090",
+    "memoryGb": 24,
+    "bandwidthGbps": 1008,
+    "powerW": 450,
+    "priceHour": 0.085,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 4090.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX 4090.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX 4090.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx4080super",
+    "vendor": "NVIDIA",
+    "name": "RTX 4080 Super",
+    "memoryGb": 16,
+    "bandwidthGbps": 736,
+    "powerW": 320,
+    "priceHour": 0.07,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 4080 Super.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX 4080 Super.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX 4080 Super.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx4070tisuper",
+    "vendor": "NVIDIA",
+    "name": "RTX 4070 Ti Super",
+    "memoryGb": 16,
+    "bandwidthGbps": 672,
+    "powerW": 285,
+    "priceHour": 0.055,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 4070 Ti Super.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX 4070 Ti Super.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX 4070 Ti Super.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx4070super",
+    "vendor": "NVIDIA",
+    "name": "RTX 4070 Super",
+    "memoryGb": 12,
+    "bandwidthGbps": 504,
+    "powerW": 220,
+    "priceHour": 0.04,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 4070 Super.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX 4070 Super.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX 4070 Super.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx4060ti16",
+    "vendor": "NVIDIA",
+    "name": "RTX 4060 Ti",
+    "memoryGb": 16,
+    "bandwidthGbps": 288,
+    "powerW": 165,
+    "priceHour": 0.026,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 4060 Ti.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX 4060 Ti.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX 4060 Ti.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx4060",
+    "vendor": "NVIDIA",
+    "name": "RTX 4060",
+    "memoryGb": 8,
+    "bandwidthGbps": 272,
+    "powerW": 115,
+    "priceHour": 0.018,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 4060.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX 4060.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX 4060.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx3090ti",
+    "vendor": "NVIDIA",
+    "name": "RTX 3090 Ti",
+    "memoryGb": 24,
+    "bandwidthGbps": 1008,
+    "powerW": 450,
+    "priceHour": 0.06,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 3090 Ti.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX 3090 Ti.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX 3090 Ti.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx3090",
+    "vendor": "NVIDIA",
+    "name": "RTX 3090",
+    "memoryGb": 24,
+    "bandwidthGbps": 936,
+    "powerW": 350,
+    "priceHour": 0.055,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 3090.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX 3090.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX 3090.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx3080-12",
+    "vendor": "NVIDIA",
+    "name": "RTX 3080",
+    "memoryGb": 12,
+    "bandwidthGbps": 912,
+    "powerW": 350,
+    "priceHour": 0.04,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 3080.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX 3080.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX 3080.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx3080-10",
+    "vendor": "NVIDIA",
+    "name": "RTX 3080",
+    "memoryGb": 10,
+    "bandwidthGbps": 760,
+    "powerW": 320,
+    "priceHour": 0.035,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 3080.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX 3080.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX 3080.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx3070",
+    "vendor": "NVIDIA",
+    "name": "RTX 3070",
+    "memoryGb": 8,
+    "bandwidthGbps": 448,
+    "powerW": 220,
+    "priceHour": 0.025,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 3070.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX 3070.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX 3070.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rtx3060",
+    "vendor": "NVIDIA",
+    "name": "RTX 3060",
+    "memoryGb": 12,
+    "bandwidthGbps": 360,
+    "powerW": 170,
+    "priceHour": 0.015,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA GeForce graphics cards",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "claim": "Supports vendor source identity for NVIDIA RTX 3060.",
+        "quote": "Graphics Cards by GeForce | NVIDIA",
+        "quoteUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for NVIDIA RTX 3060.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports local inference implementation evidence for NVIDIA RTX 3060.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rx7900xtx",
+    "vendor": "AMD",
+    "name": "Radeon RX 7900 XTX",
+    "memoryGb": 24,
+    "bandwidthGbps": 960,
+    "powerW": 355,
+    "priceHour": 0.045,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Radeon desktop graphics",
+        "url": "https://www.amd.com/en/products/graphics/desktops.html",
+        "claim": "Supports vendor source identity for AMD Radeon RX 7900 XTX.",
+        "quote": "Desktops",
+        "quoteUrl": "https://www.amd.com/en/products/graphics/desktops.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for AMD Radeon RX 7900 XTX.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rx7900xt",
+    "vendor": "AMD",
+    "name": "Radeon RX 7900 XT",
+    "memoryGb": 20,
+    "bandwidthGbps": 800,
+    "powerW": 315,
+    "priceHour": 0.038,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Radeon desktop graphics",
+        "url": "https://www.amd.com/en/products/graphics/desktops.html",
+        "claim": "Supports vendor source identity for AMD Radeon RX 7900 XT.",
+        "quote": "Desktops",
+        "quoteUrl": "https://www.amd.com/en/products/graphics/desktops.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for AMD Radeon RX 7900 XT.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rx7800xt",
+    "vendor": "AMD",
+    "name": "Radeon RX 7800 XT",
+    "memoryGb": 16,
+    "bandwidthGbps": 624,
+    "powerW": 263,
+    "priceHour": 0.032,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Radeon desktop graphics",
+        "url": "https://www.amd.com/en/products/graphics/desktops.html",
+        "claim": "Supports vendor source identity for AMD Radeon RX 7800 XT.",
+        "quote": "Desktops",
+        "quoteUrl": "https://www.amd.com/en/products/graphics/desktops.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for AMD Radeon RX 7800 XT.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rx7700xt",
+    "vendor": "AMD",
+    "name": "Radeon RX 7700 XT",
+    "memoryGb": 12,
+    "bandwidthGbps": 432,
+    "powerW": 245,
+    "priceHour": 0.025,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Radeon desktop graphics",
+        "url": "https://www.amd.com/en/products/graphics/desktops.html",
+        "claim": "Supports vendor source identity for AMD Radeon RX 7700 XT.",
+        "quote": "Desktops",
+        "quoteUrl": "https://www.amd.com/en/products/graphics/desktops.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for AMD Radeon RX 7700 XT.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rx6900xt",
+    "vendor": "AMD",
+    "name": "Radeon RX 6900 XT",
+    "memoryGb": 16,
+    "bandwidthGbps": 512,
+    "powerW": 300,
+    "priceHour": 0.03,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Radeon desktop graphics",
+        "url": "https://www.amd.com/en/products/graphics/desktops.html",
+        "claim": "Supports vendor source identity for AMD Radeon RX 6900 XT.",
+        "quote": "Desktops",
+        "quoteUrl": "https://www.amd.com/en/products/graphics/desktops.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for AMD Radeon RX 6900 XT.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "rx6800xt",
+    "vendor": "AMD",
+    "name": "Radeon RX 6800 XT",
+    "memoryGb": 16,
+    "bandwidthGbps": 512,
+    "powerW": 300,
+    "priceHour": 0.028,
+    "type": "Consumer GPU",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Radeon desktop graphics",
+        "url": "https://www.amd.com/en/products/graphics/desktops.html",
+        "claim": "Supports vendor source identity for AMD Radeon RX 6800 XT.",
+        "quote": "Desktops",
+        "quoteUrl": "https://www.amd.com/en/products/graphics/desktops.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "community",
+        "label": "TechPowerUp GPU database",
+        "url": "https://www.techpowerup.com/gpu-specs/",
+        "claim": "Supports secondary specification context for AMD Radeon RX 6800 XT.",
+        "quote": "GPU Database | TechPowerUp",
+        "quoteUrl": "https://www.techpowerup.com/gpu-specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "mi300x",
+    "vendor": "AMD",
+    "name": "Instinct MI300X",
+    "memoryGb": 192,
+    "bandwidthGbps": 5300,
+    "powerW": 750,
+    "priceHour": 2.9,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Instinct accelerators",
+        "url": "https://www.amd.com/en/products/accelerators/instinct.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI300X.",
+        "quote": "AMD Instinct™ Accelerators",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "AMD Instinct MI300 series specifications",
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI300X.",
+        "quote": "AMD Instinct™ MI300 Series Accelerators",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "mi325x",
+    "vendor": "AMD",
+    "name": "Instinct MI325X",
+    "memoryGb": 256,
+    "bandwidthGbps": 6000,
+    "powerW": 1000,
+    "priceHour": 3.4,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Instinct accelerators",
+        "url": "https://www.amd.com/en/products/accelerators/instinct.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI325X.",
+        "quote": "AMD Instinct™ Accelerators",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "AMD Instinct MI300 series specifications",
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI325X.",
+        "quote": "AMD Instinct™ MI300 Series Accelerators",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "mi350x",
+    "vendor": "AMD",
+    "name": "Instinct MI350X",
+    "memoryGb": 288,
+    "bandwidthGbps": 8000,
+    "powerW": 1000,
+    "priceHour": 4.4,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Instinct accelerators",
+        "url": "https://www.amd.com/en/products/accelerators/instinct.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI350X.",
+        "quote": "AMD Instinct™ Accelerators",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "AMD Instinct MI300 series specifications",
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI350X.",
+        "quote": "AMD Instinct™ MI300 Series Accelerators",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "AMD Instinct MI350 series specifications",
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi350.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI350X.",
+        "quote": "AMD Instinct™ MI350 Series GPUs",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct/mi350.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "mi355x",
+    "vendor": "AMD",
+    "name": "Instinct MI355X",
+    "memoryGb": 288,
+    "bandwidthGbps": 8000,
+    "powerW": 1400,
+    "priceHour": 4.8,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Instinct accelerators",
+        "url": "https://www.amd.com/en/products/accelerators/instinct.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI355X.",
+        "quote": "AMD Instinct™ Accelerators",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "AMD Instinct MI300 series specifications",
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI355X.",
+        "quote": "AMD Instinct™ MI300 Series Accelerators",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "AMD Instinct MI350 series specifications",
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi350.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI355X.",
+        "quote": "AMD Instinct™ MI350 Series GPUs",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct/mi350.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "reddit",
+        "label": "Reddit discussion of MI355X power and specs",
+        "url": "https://www.reddit.com/r/hardware/comments/1l8ui3u/amd_confirms_1400w_peak_board_power_for_instinct/",
+        "claim": "Supports community-reported local run context for AMD Instinct MI355X.",
+        "quote": "AMD confirms 1400W peak board power for Instinct",
+        "quoteUrl": "https://www.reddit.com/r/hardware/comments/1l8ui3u/amd_confirms_1400w_peak_board_power_for_instinct/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "mi250x",
+    "vendor": "AMD",
+    "name": "Instinct MI250X",
+    "memoryGb": 128,
+    "bandwidthGbps": 3277,
+    "powerW": 560,
+    "priceHour": 1.35,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Instinct accelerators",
+        "url": "https://www.amd.com/en/products/accelerators/instinct.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI250X.",
+        "quote": "AMD Instinct™ Accelerators",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "AMD Instinct MI300 series specifications",
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI250X.",
+        "quote": "AMD Instinct™ MI300 Series Accelerators",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "mi250",
+    "vendor": "AMD",
+    "name": "Instinct MI250",
+    "memoryGb": 128,
+    "bandwidthGbps": 3277,
+    "powerW": 500,
+    "priceHour": 1.2,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Instinct accelerators",
+        "url": "https://www.amd.com/en/products/accelerators/instinct.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI250.",
+        "quote": "AMD Instinct™ Accelerators",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "AMD Instinct MI300 series specifications",
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI250.",
+        "quote": "AMD Instinct™ MI300 Series Accelerators",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "mi210",
+    "vendor": "AMD",
+    "name": "Instinct MI210",
+    "memoryGb": 64,
+    "bandwidthGbps": 1638,
+    "powerW": 300,
+    "priceHour": 0.75,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AMD Instinct accelerators",
+        "url": "https://www.amd.com/en/products/accelerators/instinct.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI210.",
+        "quote": "AMD Instinct™ Accelerators",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "AMD Instinct MI300 series specifications",
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+        "claim": "Supports vendor source identity for AMD Instinct MI210.",
+        "quote": "AMD Instinct™ MI300 Series Accelerators",
+        "quoteUrl": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "gaudi3-128",
+    "vendor": "Intel",
+    "name": "Gaudi 3",
+    "memoryGb": 128,
+    "bandwidthGbps": 3700,
+    "powerW": 900,
+    "priceHour": 1.6,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Intel Gaudi AI accelerators",
+        "url": "https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
+        "claim": "Supports vendor source identity for Intel Gaudi 3.",
+        "quote": "Intel® Gaudi® AI Accelerator Products",
+        "quoteUrl": "https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "datasheet",
+        "label": "Intel Gaudi 3 whitepaper",
+        "url": "https://cdrdv2-public.intel.com/817486/gaudi-3-ai-accelerator-white-paper.pdf",
+        "claim": "Supports hardware specification context for Intel Gaudi 3.",
+        "quote": "cdrdv2-public.intel.com/817486/gaudi-3-ai-accelerator-white-paper.pdf",
+        "quoteUrl": "https://cdrdv2-public.intel.com/817486/gaudi-3-ai-accelerator-white-paper.pdf",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "gaudi2-96",
+    "vendor": "Intel",
+    "name": "Gaudi 2",
+    "memoryGb": 96,
+    "bandwidthGbps": 2450,
+    "powerW": 600,
+    "priceHour": 0.9,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Intel Gaudi AI accelerators",
+        "url": "https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
+        "claim": "Supports vendor source identity for Intel Gaudi 2.",
+        "quote": "Intel® Gaudi® AI Accelerator Products",
+        "quoteUrl": "https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "datasheet",
+        "label": "Intel Gaudi 3 whitepaper",
+        "url": "https://cdrdv2-public.intel.com/817486/gaudi-3-ai-accelerator-white-paper.pdf",
+        "claim": "Supports hardware specification context for Intel Gaudi 2.",
+        "quote": "cdrdv2-public.intel.com/817486/gaudi-3-ai-accelerator-white-paper.pdf",
+        "quoteUrl": "https://cdrdv2-public.intel.com/817486/gaudi-3-ai-accelerator-white-paper.pdf",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "max1550",
+    "vendor": "Intel",
+    "name": "Data Center GPU Max 1550",
+    "memoryGb": 128,
+    "bandwidthGbps": 3277,
+    "powerW": 600,
+    "priceHour": 0.95,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Intel Data Center GPU Max Series",
+        "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/max-series.html",
+        "claim": "Supports vendor source identity for Intel Data Center GPU Max 1550.",
+        "quote": "Intel® Data Center GPU Max Series",
+        "quoteUrl": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/max-series.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "inferentia2",
+    "vendor": "AWS",
+    "name": "Inferentia2",
+    "memoryGb": 32,
+    "bandwidthGbps": 820,
+    "powerW": 100,
+    "priceHour": 0.18,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Amazon EC2 Inf2 instances",
+        "url": "https://aws.amazon.com/ec2/instance-types/inf2/",
+        "claim": "Supports vendor source identity for AWS Inferentia2.",
+        "quote": "Compute – Amazon EC2 Inf2 instances – AWS",
+        "quoteUrl": "https://aws.amazon.com/ec2/instance-types/inf2/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "Inferentia2 architecture",
+        "url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/arch/neuron-hardware/inferentia2.html",
+        "claim": "Supports documented runtime or hardware context for AWS Inferentia2.",
+        "quote": "Inferentia2 Architecture &#8212; AWS Neuron Documentation",
+        "quoteUrl": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/arch/neuron-hardware/inferentia2.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "trainium",
+    "vendor": "AWS",
+    "name": "Trainium",
+    "memoryGb": 32,
+    "bandwidthGbps": 820,
+    "powerW": 190,
+    "priceHour": 0.65,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AWS Trainium",
+        "url": "https://aws.amazon.com/ai/machine-learning/trainium/",
+        "claim": "Supports vendor source identity for AWS Trainium.",
+        "quote": "AI Accelerator - AWS Trainium - AWS",
+        "quoteUrl": "https://aws.amazon.com/ai/machine-learning/trainium/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "AWS Neuron hardware documentation",
+        "url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/arch/neuron-hardware/index.html",
+        "claim": "Supports documented runtime or hardware context for AWS Trainium.",
+        "quote": "Documentation page not found - Read the Docs Business",
+        "quoteUrl": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/arch/neuron-hardware/index.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "trainium2",
+    "vendor": "AWS",
+    "name": "Trainium2",
+    "memoryGb": 96,
+    "bandwidthGbps": 2900,
+    "powerW": 500,
+    "priceHour": 1.4,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "AWS Trainium",
+        "url": "https://aws.amazon.com/ai/machine-learning/trainium/",
+        "claim": "Supports vendor source identity for AWS Trainium2.",
+        "quote": "AI Accelerator - AWS Trainium - AWS",
+        "quoteUrl": "https://aws.amazon.com/ai/machine-learning/trainium/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "AWS Neuron hardware documentation",
+        "url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/arch/neuron-hardware/index.html",
+        "claim": "Supports documented runtime or hardware context for AWS Trainium2.",
+        "quote": "Documentation page not found - Read the Docs Business",
+        "quoteUrl": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/arch/neuron-hardware/index.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "tpu-v5e",
+    "vendor": "Google",
+    "name": "TPU v5e",
+    "memoryGb": 16,
+    "bandwidthGbps": 800,
+    "powerW": 170,
+    "priceHour": 1.2,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "docs",
+        "label": "Google Cloud TPU documentation",
+        "url": "https://docs.cloud.google.com/tpu/docs",
+        "claim": "Supports documented runtime or hardware context for Google TPU v5e.",
+        "quote": "Cloud TPU 說明文件 &nbsp;|&nbsp; Google Cloud Documentation",
+        "quoteUrl": "https://docs.cloud.google.com/tpu/docs",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "TPU v5e documentation",
+        "url": "https://docs.cloud.google.com/tpu/docs/v5e",
+        "claim": "Supports documented runtime or hardware context for Google TPU v5e.",
+        "quote": "TPU v5e &nbsp;|&nbsp; Google Cloud Documentation",
+        "quoteUrl": "https://docs.cloud.google.com/tpu/docs/v5e",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "tpu-v5p",
+    "vendor": "Google",
+    "name": "TPU v5p",
+    "memoryGb": 95,
+    "bandwidthGbps": 2575,
+    "powerW": 450,
+    "priceHour": 4.2,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "docs",
+        "label": "Google Cloud TPU documentation",
+        "url": "https://docs.cloud.google.com/tpu/docs",
+        "claim": "Supports documented runtime or hardware context for Google TPU v5p.",
+        "quote": "Cloud TPU 說明文件 &nbsp;|&nbsp; Google Cloud Documentation",
+        "quoteUrl": "https://docs.cloud.google.com/tpu/docs",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "TPU v5p documentation",
+        "url": "https://docs.cloud.google.com/tpu/docs/v5p",
+        "claim": "Supports documented runtime or hardware context for Google TPU v5p.",
+        "quote": "TPU v5p &nbsp;|&nbsp; Google Cloud Documentation",
+        "quoteUrl": "https://docs.cloud.google.com/tpu/docs/v5p",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "tpu-v6e",
+    "vendor": "Google",
+    "name": "TPU v6e Trillium",
+    "memoryGb": 32,
+    "bandwidthGbps": 1638,
+    "powerW": 280,
+    "priceHour": 2.4,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "docs",
+        "label": "Google Cloud TPU documentation",
+        "url": "https://docs.cloud.google.com/tpu/docs",
+        "claim": "Supports documented runtime or hardware context for Google TPU v6e Trillium.",
+        "quote": "Cloud TPU 說明文件 &nbsp;|&nbsp; Google Cloud Documentation",
+        "quoteUrl": "https://docs.cloud.google.com/tpu/docs",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "docs",
+        "label": "TPU v6e documentation",
+        "url": "https://docs.cloud.google.com/tpu/docs/v6e",
+        "claim": "Supports documented runtime or hardware context for Google TPU v6e Trillium.",
+        "quote": "TPU v6e &nbsp;|&nbsp; Google Cloud Documentation",
+        "quoteUrl": "https://docs.cloud.google.com/tpu/docs/v6e",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "reddit",
+        "label": "LocalLLaMA Trillium TPU discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1gnru7c/google_trillium_tpu_v6e_introduction/",
+        "claim": "Supports community-reported local run context for Google TPU v6e Trillium.",
+        "quote": "Google Trillium TPU v6e Introduction",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1gnru7c/google_trillium_tpu_v6e_introduction/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "tpu-ironwood",
+    "vendor": "Google",
+    "name": "TPU Ironwood",
+    "memoryGb": 192,
+    "bandwidthGbps": 7370,
+    "powerW": 980,
+    "priceHour": 6,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "docs",
+        "label": "Google Cloud TPU documentation",
+        "url": "https://docs.cloud.google.com/tpu/docs",
+        "claim": "Supports documented runtime or hardware context for Google TPU Ironwood.",
+        "quote": "Cloud TPU 說明文件 &nbsp;|&nbsp; Google Cloud Documentation",
+        "quoteUrl": "https://docs.cloud.google.com/tpu/docs",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Google Ironwood TPU announcement",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/",
+        "claim": "Supports vendor source identity for Google TPU Ironwood.",
+        "quote": "Ironwood: The first Google TPU for the age of inference",
+        "quoteUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "positron-atlas-256",
+    "vendor": "Positron",
+    "name": "Atlas",
+    "memoryGb": 256,
+    "bandwidthGbps": 3000,
+    "powerW": 2000,
+    "priceHour": 2.5,
+    "type": "AI System",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Positron Atlas product page",
+        "url": "https://www.positron.ai/atlas",
+        "claim": "Supports vendor source identity for Positron Atlas.",
+        "quote": "Positron | Atlas",
+        "quoteUrl": "https://www.positron.ai/atlas",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "cerebras-cs3",
+    "vendor": "Cerebras",
+    "name": "CS-3",
+    "memoryGb": 44,
+    "bandwidthGbps": 21000000,
+    "powerW": 25000,
+    "priceHour": 90,
+    "type": "Wafer-Scale AI System",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Cerebras CS-3 product page",
+        "url": "https://www.cerebras.ai/system",
+        "claim": "Supports vendor source identity for Cerebras CS-3.",
+        "quote": "Product - System - Cerebras",
+        "quoteUrl": "https://www.cerebras.ai/system",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "paper",
+        "label": "Wafer-scale processor comparison",
+        "url": "https://arxiv.org/html/2503.11698v1",
+        "claim": "Supports source provenance for Cerebras CS-3.",
+        "quote": "A Comparison of the Cerebras Wafer-Scale Integration Technology with Nvidia GPU-based Systems for Artificial Intelligence",
+        "quoteUrl": "https://arxiv.org/html/2503.11698v1",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "sambanova-sn40l",
+    "vendor": "SambaNova",
+    "name": "SN40L RDU",
+    "memoryGb": 64,
+    "bandwidthGbps": 2000,
+    "powerW": 600,
+    "priceHour": 2.2,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "SambaNova RDU product page",
+        "url": "https://sambanova.ai/products/rdu-ai-chips",
+        "claim": "Supports vendor source identity for SambaNova SN40L RDU.",
+        "quote": "RDU | Next-Gen AI Chip for Inference at Scale",
+        "quoteUrl": "https://sambanova.ai/products/rdu-ai-chips",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "paper",
+        "label": "SambaNova SN40L paper",
+        "url": "https://arxiv.org/html/2405.07518v1",
+        "claim": "Supports source provenance for SambaNova SN40L RDU.",
+        "quote": "SambaNova SN40L: Scaling the AI Memory Wall with Dataflow and Composition of Experts",
+        "quoteUrl": "https://arxiv.org/html/2405.07518v1",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "sambanova-sn40l-16",
+    "vendor": "SambaNova",
+    "name": "DataScale SN40L-16",
+    "memoryGb": 1024,
+    "bandwidthGbps": 32000,
+    "powerW": 10000,
+    "priceHour": 32,
+    "type": "AI System",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "SambaNova RDU product page",
+        "url": "https://sambanova.ai/products/rdu-ai-chips",
+        "claim": "Supports vendor source identity for SambaNova DataScale SN40L-16.",
+        "quote": "RDU | Next-Gen AI Chip for Inference at Scale",
+        "quoteUrl": "https://sambanova.ai/products/rdu-ai-chips",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "paper",
+        "label": "SambaNova SN40L paper",
+        "url": "https://arxiv.org/html/2405.07518v1",
+        "claim": "Supports source provenance for SambaNova DataScale SN40L-16.",
+        "quote": "SambaNova SN40L: Scaling the AI Memory Wall with Dataflow and Composition of Experts",
+        "quoteUrl": "https://arxiv.org/html/2405.07518v1",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "dgx-spark-128",
+    "vendor": "NVIDIA",
+    "name": "DGX Spark",
+    "memoryGb": 128,
+    "bandwidthGbps": 273,
+    "powerW": 140,
+    "priceHour": 0.12,
+    "type": "AI Accelerator",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "NVIDIA DGX Spark product page",
+        "url": "https://www.nvidia.com/en-us/products/workstations/dgx-spark/",
+        "claim": "Supports vendor source identity for NVIDIA DGX Spark.",
+        "quote": "Personal AI Supercomputer Powered by Blackwell | NVIDIA DGX Spark",
+        "quoteUrl": "https://www.nvidia.com/en-us/products/workstations/dgx-spark/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp DGX Spark benchmarks",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions/16578",
+        "claim": "Supports local inference implementation evidence for NVIDIA DGX Spark.",
+        "quote": "Performance of llama.cpp on NVIDIA DGX Spark · ggml-org/llama.cpp · Discussion #16578 · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions/16578",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "m3-ultra-512",
+    "vendor": "Apple",
+    "name": "M3 Ultra unified",
+    "memoryGb": 512,
+    "bandwidthGbps": 819,
+    "powerW": 215,
+    "priceHour": 0.16,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M3 Ultra unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M3 Ultra unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m3-ultra-256",
+    "vendor": "Apple",
+    "name": "M3 Ultra unified",
+    "memoryGb": 256,
+    "bandwidthGbps": 819,
+    "powerW": 190,
+    "priceHour": 0.13,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M3 Ultra unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M3 Ultra unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m2-ultra-192",
+    "vendor": "Apple",
+    "name": "M2 Ultra unified",
+    "memoryGb": 192,
+    "bandwidthGbps": 800,
+    "powerW": 180,
+    "priceHour": 0.11,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M2 Ultra unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M2 Ultra unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m1-ultra-128",
+    "vendor": "Apple",
+    "name": "M1 Ultra unified",
+    "memoryGb": 128,
+    "bandwidthGbps": 800,
+    "powerW": 160,
+    "priceHour": 0.08,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M1 Ultra unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M1 Ultra unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m5-32",
+    "vendor": "Apple",
+    "name": "M5 unified",
+    "memoryGb": 32,
+    "bandwidthGbps": 153,
+    "powerW": 55,
+    "priceHour": 0.04,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M5 unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M5 unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple M5 Pro and M5 Max announcement",
+        "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "claim": "Supports vendor source identity for Apple M5 unified.",
+        "quote": "Apple debuts M5 Pro and M5 Max to supercharge the most demanding pro workflows - Apple",
+        "quoteUrl": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m5-24",
+    "vendor": "Apple",
+    "name": "M5 unified",
+    "memoryGb": 24,
+    "bandwidthGbps": 153,
+    "powerW": 50,
+    "priceHour": 0.035,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M5 unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M5 unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple M5 Pro and M5 Max announcement",
+        "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "claim": "Supports vendor source identity for Apple M5 unified.",
+        "quote": "Apple debuts M5 Pro and M5 Max to supercharge the most demanding pro workflows - Apple",
+        "quoteUrl": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m5-16",
+    "vendor": "Apple",
+    "name": "M5 unified",
+    "memoryGb": 16,
+    "bandwidthGbps": 153,
+    "powerW": 45,
+    "priceHour": 0.03,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M5 unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M5 unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple M5 Pro and M5 Max announcement",
+        "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "claim": "Supports vendor source identity for Apple M5 unified.",
+        "quote": "Apple debuts M5 Pro and M5 Max to supercharge the most demanding pro workflows - Apple",
+        "quoteUrl": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m5pro-64",
+    "vendor": "Apple",
+    "name": "M5 Pro unified",
+    "memoryGb": 64,
+    "bandwidthGbps": 307,
+    "powerW": 90,
+    "priceHour": 0.07,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M5 Pro unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M5 Pro unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple M5 Pro and M5 Max announcement",
+        "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "claim": "Supports vendor source identity for Apple M5 Pro unified.",
+        "quote": "Apple debuts M5 Pro and M5 Max to supercharge the most demanding pro workflows - Apple",
+        "quoteUrl": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m5pro-48",
+    "vendor": "Apple",
+    "name": "M5 Pro unified",
+    "memoryGb": 48,
+    "bandwidthGbps": 307,
+    "powerW": 82,
+    "priceHour": 0.06,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M5 Pro unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M5 Pro unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple M5 Pro and M5 Max announcement",
+        "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "claim": "Supports vendor source identity for Apple M5 Pro unified.",
+        "quote": "Apple debuts M5 Pro and M5 Max to supercharge the most demanding pro workflows - Apple",
+        "quoteUrl": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m5pro-24",
+    "vendor": "Apple",
+    "name": "M5 Pro unified",
+    "memoryGb": 24,
+    "bandwidthGbps": 307,
+    "powerW": 75,
+    "priceHour": 0.05,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M5 Pro unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M5 Pro unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple M5 Pro and M5 Max announcement",
+        "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "claim": "Supports vendor source identity for Apple M5 Pro unified.",
+        "quote": "Apple debuts M5 Pro and M5 Max to supercharge the most demanding pro workflows - Apple",
+        "quoteUrl": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m5max-36",
+    "vendor": "Apple",
+    "name": "M5 Max 32c unified",
+    "memoryGb": 36,
+    "bandwidthGbps": 460,
+    "powerW": 105,
+    "priceHour": 0.07,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M5 Max 32c unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M5 Max 32c unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple M5 Pro and M5 Max announcement",
+        "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "claim": "Supports vendor source identity for Apple M5 Max 32c unified.",
+        "quote": "Apple debuts M5 Pro and M5 Max to supercharge the most demanding pro workflows - Apple",
+        "quoteUrl": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m5max-48",
+    "vendor": "Apple",
+    "name": "M5 Max 40c unified",
+    "memoryGb": 48,
+    "bandwidthGbps": 614,
+    "powerW": 110,
+    "priceHour": 0.075,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M5 Max 40c unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M5 Max 40c unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple M5 Pro and M5 Max announcement",
+        "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "claim": "Supports vendor source identity for Apple M5 Max 40c unified.",
+        "quote": "Apple debuts M5 Pro and M5 Max to supercharge the most demanding pro workflows - Apple",
+        "quoteUrl": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m5max-128",
+    "vendor": "Apple",
+    "name": "M5 Max 40c unified",
+    "memoryGb": 128,
+    "bandwidthGbps": 614,
+    "powerW": 125,
+    "priceHour": 0.1,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M5 Max 40c unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M5 Max 40c unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple M5 Pro and M5 Max announcement",
+        "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "claim": "Supports vendor source identity for Apple M5 Max 40c unified.",
+        "quote": "Apple debuts M5 Pro and M5 Max to supercharge the most demanding pro workflows - Apple",
+        "quoteUrl": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m5max-64",
+    "vendor": "Apple",
+    "name": "M5 Max 40c unified",
+    "memoryGb": 64,
+    "bandwidthGbps": 614,
+    "powerW": 115,
+    "priceHour": 0.08,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M5 Max 40c unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M5 Max 40c unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple M5 Pro and M5 Max announcement",
+        "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "claim": "Supports vendor source identity for Apple M5 Max 40c unified.",
+        "quote": "Apple debuts M5 Pro and M5 Max to supercharge the most demanding pro workflows - Apple",
+        "quoteUrl": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m4max-128",
+    "vendor": "Apple",
+    "name": "M4 Max unified",
+    "memoryGb": 128,
+    "bandwidthGbps": 546,
+    "powerW": 120,
+    "priceHour": 0.09,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M4 Max unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M4 Max unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m4max-64",
+    "vendor": "Apple",
+    "name": "M4 Max unified",
+    "memoryGb": 64,
+    "bandwidthGbps": 546,
+    "powerW": 100,
+    "priceHour": 0.07,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M4 Max unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M4 Max unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m3max-128",
+    "vendor": "Apple",
+    "name": "M3 Max unified",
+    "memoryGb": 128,
+    "bandwidthGbps": 400,
+    "powerW": 95,
+    "priceHour": 0.08,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M3 Max unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M3 Max unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m3max-36",
+    "vendor": "Apple",
+    "name": "M3 Max unified",
+    "memoryGb": 36,
+    "bandwidthGbps": 300,
+    "powerW": 75,
+    "priceHour": 0.03,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M3 Max unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M3 Max unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  },
+  {
+    "id": "m2max-96",
+    "vendor": "Apple",
+    "name": "M2 Max unified",
+    "memoryGb": 96,
+    "bandwidthGbps": 400,
+    "powerW": 85,
+    "priceHour": 0.06,
+    "type": "Unified Memory",
+    "evidence": [
+      {
+        "kind": "official",
+        "label": "Apple Mac technical specifications",
+        "url": "https://support.apple.com/specs/mac",
+        "claim": "Supports vendor source identity for Apple M2 Max unified.",
+        "quote": "Manuals, Specs, and Downloads - Apple Support",
+        "quoteUrl": "https://support.apple.com/specs/mac",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "official",
+        "label": "Apple MacBook Pro technical specifications",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "claim": "Supports vendor source identity for Apple M2 Max unified.",
+        "quote": "MacBook Pro - Tech Specs - Apple",
+        "quoteUrl": "https://www.apple.com/macbook-pro/specs/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      }
+    ]
+  }
+]

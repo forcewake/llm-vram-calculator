@@ -1,0 +1,1987 @@
+[
+  {
+    "id": "omlx-minimax-m27-m5max-128-4bit-1k",
+    "modelSlug": "minimax-m2-7",
+    "modelName": "MiniMax M2.7 ConfigI",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max 40-core GPU, 128GB",
+    "numGpus": 1,
+    "engine": "mlx",
+    "engineLabel": "oMLX",
+    "quantization": "4bit",
+    "contextTokens": 1024,
+    "prefillTokSec": 849.9,
+    "generationTokSec": 55.5,
+    "peakMemoryGb": 87.4,
+    "sourceName": "oMLX Community Benchmark",
+    "sourceUrl": "https://omlx.ai/benchmarks/86wab2j4",
+    "confidence": "observed",
+    "notes": "Reported 1K context single-batch MiniMax-M2.7-ConfigI run.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "oMLX Community Benchmark",
+        "url": "https://omlx.ai/benchmarks/86wab2j4",
+        "claim": "Supports observed 55.5 tok/sec oMLX run for MiniMax MiniMax M2.7 on Apple M5 Max 40c unified.",
+        "quote": "MiniMax-M2.7-ConfigI on M5 Max (40c) — oMLX Benchmark",
+        "quoteUrl": "https://omlx.ai/benchmarks/86wab2j4",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Apple MLX examples repository",
+        "url": "https://github.com/ml-explore/mlx-examples",
+        "claim": "Supports runtime implementation or issue context for oMLX benchmarks.",
+        "quote": "GitHub - ml-explore/mlx-examples: Examples in the MLX framework · GitHub",
+        "quoteUrl": "https://github.com/ml-explore/mlx-examples",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp MiniMax support discussion",
+        "url": "https://github.com/ollama/ollama/issues/13049",
+        "claim": "Supports runtime implementation or issue context for oMLX benchmarks.",
+        "quote": "When will minimax-m2 be supported? · Issue #13049 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/13049",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "reddit",
+        "label": "MiniMax M2.7 local benchmark discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "claim": "Supports community-reported benchmark context for MiniMax MiniMax M2.7.",
+        "quote": "MiniMax-M2.7 vs Qwen3.5-122B-A10B for 96GB VRAM full offload?!",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "omlx-minimax-m27-m5max-128-4bit-4k",
+    "modelSlug": "minimax-m2-7",
+    "modelName": "MiniMax M2.7 ConfigI",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max 40-core GPU, 128GB",
+    "numGpus": 1,
+    "engine": "mlx",
+    "engineLabel": "oMLX",
+    "quantization": "4bit",
+    "contextTokens": 4096,
+    "prefillTokSec": 1270,
+    "generationTokSec": 47.4,
+    "peakMemoryGb": 88.4,
+    "sourceName": "oMLX Community Benchmark",
+    "sourceUrl": "https://omlx.ai/benchmarks/86wab2j4",
+    "confidence": "observed",
+    "notes": "Reported 4K context MiniMax-M2.7-ConfigI run.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "oMLX Community Benchmark",
+        "url": "https://omlx.ai/benchmarks/86wab2j4",
+        "claim": "Supports observed 47.4 tok/sec oMLX run for MiniMax MiniMax M2.7 on Apple M5 Max 40c unified.",
+        "quote": "MiniMax-M2.7-ConfigI on M5 Max (40c) — oMLX Benchmark",
+        "quoteUrl": "https://omlx.ai/benchmarks/86wab2j4",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Apple MLX examples repository",
+        "url": "https://github.com/ml-explore/mlx-examples",
+        "claim": "Supports runtime implementation or issue context for oMLX benchmarks.",
+        "quote": "GitHub - ml-explore/mlx-examples: Examples in the MLX framework · GitHub",
+        "quoteUrl": "https://github.com/ml-explore/mlx-examples",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp MiniMax support discussion",
+        "url": "https://github.com/ollama/ollama/issues/13049",
+        "claim": "Supports runtime implementation or issue context for oMLX benchmarks.",
+        "quote": "When will minimax-m2 be supported? · Issue #13049 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/13049",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "reddit",
+        "label": "MiniMax M2.7 local benchmark discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "claim": "Supports community-reported benchmark context for MiniMax MiniMax M2.7.",
+        "quote": "MiniMax-M2.7 vs Qwen3.5-122B-A10B for 96GB VRAM full offload?!",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "omlx-minimax-m27-m5max-128-4bit-8k",
+    "modelSlug": "minimax-m2-7",
+    "modelName": "MiniMax M2.7 ConfigI",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max 40-core GPU, 128GB",
+    "numGpus": 1,
+    "engine": "mlx",
+    "engineLabel": "oMLX",
+    "quantization": "4bit",
+    "contextTokens": 8192,
+    "prefillTokSec": 1177,
+    "generationTokSec": 40.4,
+    "peakMemoryGb": 89.3,
+    "sourceName": "oMLX Community Benchmark",
+    "sourceUrl": "https://omlx.ai/benchmarks/86wab2j4",
+    "confidence": "observed",
+    "notes": "Reported 8K context MiniMax-M2.7-ConfigI run.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "oMLX Community Benchmark",
+        "url": "https://omlx.ai/benchmarks/86wab2j4",
+        "claim": "Supports observed 40.4 tok/sec oMLX run for MiniMax MiniMax M2.7 on Apple M5 Max 40c unified.",
+        "quote": "MiniMax-M2.7-ConfigI on M5 Max (40c) — oMLX Benchmark",
+        "quoteUrl": "https://omlx.ai/benchmarks/86wab2j4",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Apple MLX examples repository",
+        "url": "https://github.com/ml-explore/mlx-examples",
+        "claim": "Supports runtime implementation or issue context for oMLX benchmarks.",
+        "quote": "GitHub - ml-explore/mlx-examples: Examples in the MLX framework · GitHub",
+        "quoteUrl": "https://github.com/ml-explore/mlx-examples",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp MiniMax support discussion",
+        "url": "https://github.com/ollama/ollama/issues/13049",
+        "claim": "Supports runtime implementation or issue context for oMLX benchmarks.",
+        "quote": "When will minimax-m2 be supported? · Issue #13049 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/13049",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "reddit",
+        "label": "MiniMax M2.7 local benchmark discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "claim": "Supports community-reported benchmark context for MiniMax MiniMax M2.7.",
+        "quote": "MiniMax-M2.7 vs Qwen3.5-122B-A10B for 96GB VRAM full offload?!",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "omlx-minimax-m27-m5max-128-4bit-16k",
+    "modelSlug": "minimax-m2-7",
+    "modelName": "MiniMax M2.7 ConfigI",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max 40-core GPU, 128GB",
+    "numGpus": 1,
+    "engine": "mlx",
+    "engineLabel": "oMLX",
+    "quantization": "4bit",
+    "contextTokens": 16384,
+    "prefillTokSec": 906.3,
+    "generationTokSec": 29.2,
+    "ttftMs": 18079,
+    "peakMemoryGb": 91.3,
+    "sourceName": "oMLX Community Benchmark",
+    "sourceUrl": "https://omlx.ai/benchmarks/86wab2j4",
+    "confidence": "observed",
+    "notes": "Current oMLX benchmark detail page result.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "oMLX Community Benchmark",
+        "url": "https://omlx.ai/benchmarks/86wab2j4",
+        "claim": "Supports observed 29.2 tok/sec oMLX run for MiniMax MiniMax M2.7 on Apple M5 Max 40c unified.",
+        "quote": "MiniMax-M2.7-ConfigI on M5 Max (40c) — oMLX Benchmark",
+        "quoteUrl": "https://omlx.ai/benchmarks/86wab2j4",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Apple MLX examples repository",
+        "url": "https://github.com/ml-explore/mlx-examples",
+        "claim": "Supports runtime implementation or issue context for oMLX benchmarks.",
+        "quote": "GitHub - ml-explore/mlx-examples: Examples in the MLX framework · GitHub",
+        "quoteUrl": "https://github.com/ml-explore/mlx-examples",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp MiniMax support discussion",
+        "url": "https://github.com/ollama/ollama/issues/13049",
+        "claim": "Supports runtime implementation or issue context for oMLX benchmarks.",
+        "quote": "When will minimax-m2 be supported? · Issue #13049 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/13049",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "reddit",
+        "label": "MiniMax M2.7 local benchmark discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "claim": "Supports community-reported benchmark context for MiniMax MiniMax M2.7.",
+        "quote": "MiniMax-M2.7 vs Qwen3.5-122B-A10B for 96GB VRAM full offload?!",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "omlx-minimax-m27-m5max-128-4bit-32k",
+    "modelSlug": "minimax-m2-7",
+    "modelName": "MiniMax M2.7 ConfigI",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max 40-core GPU, 128GB",
+    "numGpus": 1,
+    "engine": "mlx",
+    "engineLabel": "oMLX",
+    "quantization": "4bit",
+    "contextTokens": 32768,
+    "prefillTokSec": 710.7,
+    "generationTokSec": 20.2,
+    "peakMemoryGb": 95.1,
+    "sourceName": "oMLX Community Benchmark",
+    "sourceUrl": "https://omlx.ai/benchmarks/86wab2j4",
+    "confidence": "observed",
+    "notes": "Reported 32K context MiniMax-M2.7-ConfigI run.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "oMLX Community Benchmark",
+        "url": "https://omlx.ai/benchmarks/86wab2j4",
+        "claim": "Supports observed 20.2 tok/sec oMLX run for MiniMax MiniMax M2.7 on Apple M5 Max 40c unified.",
+        "quote": "MiniMax-M2.7-ConfigI on M5 Max (40c) — oMLX Benchmark",
+        "quoteUrl": "https://omlx.ai/benchmarks/86wab2j4",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Apple MLX examples repository",
+        "url": "https://github.com/ml-explore/mlx-examples",
+        "claim": "Supports runtime implementation or issue context for oMLX benchmarks.",
+        "quote": "GitHub - ml-explore/mlx-examples: Examples in the MLX framework · GitHub",
+        "quoteUrl": "https://github.com/ml-explore/mlx-examples",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp MiniMax support discussion",
+        "url": "https://github.com/ollama/ollama/issues/13049",
+        "claim": "Supports runtime implementation or issue context for oMLX benchmarks.",
+        "quote": "When will minimax-m2 be supported? · Issue #13049 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/13049",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "reddit",
+        "label": "MiniMax M2.7 local benchmark discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "claim": "Supports community-reported benchmark context for MiniMax MiniMax M2.7.",
+        "quote": "MiniMax-M2.7 vs Qwen3.5-122B-A10B for 96GB VRAM full offload?!",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "omlx-minimax-m27-m5max-128-4bit-batch-2",
+    "modelSlug": "minimax-m2-7",
+    "modelName": "MiniMax M2.7 ConfigI",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max 40-core GPU, 128GB",
+    "numGpus": 1,
+    "batchSize": 2,
+    "engine": "mlx",
+    "engineLabel": "oMLX",
+    "quantization": "4bit",
+    "contextTokens": 1024,
+    "generationTokSec": 75.5,
+    "sourceName": "oMLX Community Benchmark",
+    "sourceUrl": "https://omlx.ai/benchmarks/86wab2j4",
+    "confidence": "observed",
+    "notes": "Reported batching result, 1.36x speedup.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "oMLX Community Benchmark",
+        "url": "https://omlx.ai/benchmarks/86wab2j4",
+        "claim": "Supports observed 75.5 tok/sec oMLX run for MiniMax MiniMax M2.7 on Apple M5 Max 40c unified.",
+        "quote": "MiniMax-M2.7-ConfigI on M5 Max (40c) — oMLX Benchmark",
+        "quoteUrl": "https://omlx.ai/benchmarks/86wab2j4",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Apple MLX examples repository",
+        "url": "https://github.com/ml-explore/mlx-examples",
+        "claim": "Supports runtime implementation or issue context for oMLX benchmarks.",
+        "quote": "GitHub - ml-explore/mlx-examples: Examples in the MLX framework · GitHub",
+        "quoteUrl": "https://github.com/ml-explore/mlx-examples",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp MiniMax support discussion",
+        "url": "https://github.com/ollama/ollama/issues/13049",
+        "claim": "Supports runtime implementation or issue context for oMLX benchmarks.",
+        "quote": "When will minimax-m2 be supported? · Issue #13049 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/13049",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "reddit",
+        "label": "MiniMax M2.7 local benchmark discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "claim": "Supports community-reported benchmark context for MiniMax MiniMax M2.7.",
+        "quote": "MiniMax-M2.7 vs Qwen3.5-122B-A10B for 96GB VRAM full offload?!",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "omlx-minimax-m27-m5max-128-4bit-batch-4",
+    "modelSlug": "minimax-m2-7",
+    "modelName": "MiniMax M2.7 ConfigI",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max 40-core GPU, 128GB",
+    "numGpus": 1,
+    "batchSize": 4,
+    "engine": "mlx",
+    "engineLabel": "oMLX",
+    "quantization": "4bit",
+    "contextTokens": 1024,
+    "generationTokSec": 89.9,
+    "sourceName": "oMLX Community Benchmark",
+    "sourceUrl": "https://omlx.ai/benchmarks/86wab2j4",
+    "confidence": "observed",
+    "notes": "Reported batching result, 1.62x speedup.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "oMLX Community Benchmark",
+        "url": "https://omlx.ai/benchmarks/86wab2j4",
+        "claim": "Supports observed 89.9 tok/sec oMLX run for MiniMax MiniMax M2.7 on Apple M5 Max 40c unified.",
+        "quote": "MiniMax-M2.7-ConfigI on M5 Max (40c) — oMLX Benchmark",
+        "quoteUrl": "https://omlx.ai/benchmarks/86wab2j4",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Apple MLX examples repository",
+        "url": "https://github.com/ml-explore/mlx-examples",
+        "claim": "Supports runtime implementation or issue context for oMLX benchmarks.",
+        "quote": "GitHub - ml-explore/mlx-examples: Examples in the MLX framework · GitHub",
+        "quoteUrl": "https://github.com/ml-explore/mlx-examples",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp MiniMax support discussion",
+        "url": "https://github.com/ollama/ollama/issues/13049",
+        "claim": "Supports runtime implementation or issue context for oMLX benchmarks.",
+        "quote": "When will minimax-m2 be supported? · Issue #13049 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/13049",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "reddit",
+        "label": "MiniMax M2.7 local benchmark discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "claim": "Supports community-reported benchmark context for MiniMax MiniMax M2.7.",
+        "quote": "MiniMax-M2.7 vs Qwen3.5-122B-A10B for 96GB VRAM full offload?!",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "devradar-minimax-m27-4x4090-iq3",
+    "modelSlug": "minimax-m2-7",
+    "modelName": "MiniMax M2.7",
+    "hardwareId": "rtx4090",
+    "hardwareName": "4x NVIDIA RTX 4090",
+    "numGpus": 4,
+    "engine": "llamacpp",
+    "engineLabel": "llama.cpp",
+    "quantization": "UD-IQ3_XXS",
+    "contextTokens": 32768,
+    "maxOutputTokens": 4096,
+    "generationTokSec": 71.52,
+    "ttftMs": 1045,
+    "powerW": 1800,
+    "sourceName": "DevRadar / stevibe",
+    "sourceUrl": "https://devradar.dev/radar/minmax-m2-7-inference-benchmarks-rtx-hardware",
+    "confidence": "reported",
+    "notes": "Reported benchmark held quantization, 32K context, and 4096 max tokens constant across rigs.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "DevRadar / stevibe",
+        "url": "https://devradar.dev/radar/minmax-m2-7-inference-benchmarks-rtx-hardware",
+        "claim": "Supports observed 71.52 tok/sec llama.cpp run for MiniMax MiniMax M2.7 on NVIDIA RTX 4090.",
+        "quote": "MiniMax M2.7 Inference Benchmarks: Hardware Power Efficiency | DevRadar | DevRadar",
+        "quoteUrl": "https://devradar.dev/radar/minmax-m2-7-inference-benchmarks-rtx-hardware",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp CUDA performance discussion",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "Performance of llama.cpp on Nvidia CUDA · ggml-org/llama.cpp · Discussion #15013 · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp MiniMax support discussion",
+        "url": "https://github.com/ollama/ollama/issues/13049",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "When will minimax-m2 be supported? · Issue #13049 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/13049",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "reddit",
+        "label": "MiniMax M2.7 local benchmark discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "claim": "Supports community-reported benchmark context for MiniMax MiniMax M2.7.",
+        "quote": "MiniMax-M2.7 vs Qwen3.5-122B-A10B for 96GB VRAM full offload?!",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "devradar-minimax-m27-4x5090-iq3",
+    "modelSlug": "minimax-m2-7",
+    "modelName": "MiniMax M2.7",
+    "hardwareId": "rtx5090",
+    "hardwareName": "4x NVIDIA RTX 5090",
+    "numGpus": 4,
+    "engine": "llamacpp",
+    "engineLabel": "llama.cpp",
+    "quantization": "UD-IQ3_XXS",
+    "contextTokens": 32768,
+    "maxOutputTokens": 4096,
+    "generationTokSec": 120.54,
+    "ttftMs": 725,
+    "powerW": 2300,
+    "sourceName": "DevRadar / stevibe",
+    "sourceUrl": "https://devradar.dev/radar/minmax-m2-7-inference-benchmarks-rtx-hardware",
+    "confidence": "reported",
+    "notes": "Reported benchmark held quantization, 32K context, and 4096 max tokens constant across rigs.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "DevRadar / stevibe",
+        "url": "https://devradar.dev/radar/minmax-m2-7-inference-benchmarks-rtx-hardware",
+        "claim": "Supports observed 120.54 tok/sec llama.cpp run for MiniMax MiniMax M2.7 on NVIDIA RTX 5090.",
+        "quote": "MiniMax M2.7 Inference Benchmarks: Hardware Power Efficiency | DevRadar | DevRadar",
+        "quoteUrl": "https://devradar.dev/radar/minmax-m2-7-inference-benchmarks-rtx-hardware",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp CUDA performance discussion",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "Performance of llama.cpp on Nvidia CUDA · ggml-org/llama.cpp · Discussion #15013 · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp MiniMax support discussion",
+        "url": "https://github.com/ollama/ollama/issues/13049",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "When will minimax-m2 be supported? · Issue #13049 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/13049",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "reddit",
+        "label": "MiniMax M2.7 local benchmark discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "claim": "Supports community-reported benchmark context for MiniMax MiniMax M2.7.",
+        "quote": "MiniMax-M2.7 vs Qwen3.5-122B-A10B for 96GB VRAM full offload?!",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "devradar-minimax-m27-rtxpro6000-iq3",
+    "modelSlug": "minimax-m2-7",
+    "modelName": "MiniMax M2.7",
+    "hardwareId": "rtx-pro-6000-blackwell",
+    "hardwareName": "NVIDIA RTX PRO 6000 Blackwell",
+    "numGpus": 1,
+    "engine": "llamacpp",
+    "engineLabel": "llama.cpp",
+    "quantization": "UD-IQ3_XXS",
+    "contextTokens": 32768,
+    "maxOutputTokens": 4096,
+    "generationTokSec": 118.74,
+    "ttftMs": 765,
+    "powerW": 600,
+    "sourceName": "DevRadar / stevibe",
+    "sourceUrl": "https://devradar.dev/radar/minmax-m2-7-inference-benchmarks-rtx-hardware",
+    "confidence": "reported",
+    "notes": "Reported benchmark held quantization, 32K context, and 4096 max tokens constant across rigs.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "DevRadar / stevibe",
+        "url": "https://devradar.dev/radar/minmax-m2-7-inference-benchmarks-rtx-hardware",
+        "claim": "Supports observed 118.74 tok/sec llama.cpp run for MiniMax MiniMax M2.7 on NVIDIA RTX PRO 6000 Blackwell.",
+        "quote": "MiniMax M2.7 Inference Benchmarks: Hardware Power Efficiency | DevRadar | DevRadar",
+        "quoteUrl": "https://devradar.dev/radar/minmax-m2-7-inference-benchmarks-rtx-hardware",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp CUDA performance discussion",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "Performance of llama.cpp on Nvidia CUDA · ggml-org/llama.cpp · Discussion #15013 · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp MiniMax support discussion",
+        "url": "https://github.com/ollama/ollama/issues/13049",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "When will minimax-m2 be supported? · Issue #13049 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/13049",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "reddit",
+        "label": "MiniMax M2.7 local benchmark discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "claim": "Supports community-reported benchmark context for MiniMax MiniMax M2.7.",
+        "quote": "MiniMax-M2.7 vs Qwen3.5-122B-A10B for 96GB VRAM full offload?!",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "devradar-minimax-m27-dgx-spark-iq3",
+    "modelSlug": "minimax-m2-7",
+    "modelName": "MiniMax M2.7",
+    "hardwareId": "dgx-spark-128",
+    "hardwareName": "NVIDIA DGX Spark",
+    "numGpus": 1,
+    "engine": "llamacpp",
+    "engineLabel": "llama.cpp",
+    "quantization": "UD-IQ3_XXS",
+    "contextTokens": 32768,
+    "maxOutputTokens": 4096,
+    "generationTokSec": 24.41,
+    "ttftMs": 741,
+    "powerW": 240,
+    "sourceName": "DevRadar / stevibe",
+    "sourceUrl": "https://devradar.dev/radar/minmax-m2-7-inference-benchmarks-rtx-hardware",
+    "confidence": "reported",
+    "notes": "Whole-system power reported. Benchmark held quantization, 32K context, and 4096 max tokens constant across rigs.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "DevRadar / stevibe",
+        "url": "https://devradar.dev/radar/minmax-m2-7-inference-benchmarks-rtx-hardware",
+        "claim": "Supports observed 24.41 tok/sec llama.cpp run for MiniMax MiniMax M2.7 on NVIDIA DGX Spark.",
+        "quote": "MiniMax M2.7 Inference Benchmarks: Hardware Power Efficiency | DevRadar | DevRadar",
+        "quoteUrl": "https://devradar.dev/radar/minmax-m2-7-inference-benchmarks-rtx-hardware",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp CUDA performance discussion",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "Performance of llama.cpp on Nvidia CUDA · ggml-org/llama.cpp · Discussion #15013 · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp MiniMax support discussion",
+        "url": "https://github.com/ollama/ollama/issues/13049",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "When will minimax-m2 be supported? · Issue #13049 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/13049",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "reddit",
+        "label": "MiniMax M2.7 local benchmark discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "claim": "Supports community-reported benchmark context for MiniMax MiniMax M2.7.",
+        "quote": "MiniMax-M2.7 vs Qwen3.5-122B-A10B for 96GB VRAM full offload?!",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sjsokz/minimaxm27_vs_qwen35122ba10b_for_96gb_vram_full/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "aiproductivity-m5max-llama31-8b-q4-mlx",
+    "modelSlug": "llama-3-1-8b",
+    "modelName": "Llama 3.1 8B",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max",
+    "numGpus": 1,
+    "engine": "mlx",
+    "engineLabel": "MLX",
+    "quantization": "Q4_K_M",
+    "generationTokSec": 230,
+    "sourceName": "AIProductivity M5 Max Guide",
+    "sourceUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+    "confidence": "reported",
+    "notes": "Engine comparison table; exact prompt/context not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "AIProductivity M5 Max Guide",
+        "url": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "claim": "Supports observed 230 tok/sec MLX run for Meta Llama 3.1 8B on Apple M5 Max 40c unified.",
+        "quote": "Apple M5 Max Local LLM: 128GB Inference Guide 2026",
+        "quoteUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Apple MLX examples repository",
+        "url": "https://github.com/ml-explore/mlx-examples",
+        "claim": "Supports runtime implementation or issue context for MLX benchmarks.",
+        "quote": "GitHub - ml-explore/mlx-examples: Examples in the MLX framework · GitHub",
+        "quoteUrl": "https://github.com/ml-explore/mlx-examples",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "aiproductivity-m5max-llama31-8b-q4-ollama",
+    "modelSlug": "llama-3-1-8b",
+    "modelName": "Llama 3.1 8B",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max",
+    "numGpus": 1,
+    "engine": "ollama",
+    "engineLabel": "Ollama",
+    "quantization": "Q4_K_M",
+    "generationTokSec": 140,
+    "sourceName": "AIProductivity M5 Max Guide",
+    "sourceUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+    "confidence": "reported",
+    "notes": "Engine comparison table; exact prompt/context not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "AIProductivity M5 Max Guide",
+        "url": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "claim": "Supports observed 140 tok/sec Ollama run for Meta Llama 3.1 8B on Apple M5 Max 40c unified.",
+        "quote": "Apple M5 Max Local LLM: 128GB Inference Guide 2026",
+        "quoteUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Ollama repository",
+        "url": "https://github.com/ollama/ollama",
+        "claim": "Supports runtime implementation or issue context for Ollama benchmarks.",
+        "quote": "GitHub - ollama/ollama: Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "Ollama Qwen3.5 performance issue",
+        "url": "https://github.com/ollama/ollama/issues/14861",
+        "claim": "Supports runtime implementation or issue context for Ollama benchmarks.",
+        "quote": "Massive difference in speed between Ollama and llama.cpp with qwen3.5:35b! · Issue #14861 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/14861",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "aiproductivity-m5max-llama31-8b-q4-llamacpp",
+    "modelSlug": "llama-3-1-8b",
+    "modelName": "Llama 3.1 8B",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max",
+    "numGpus": 1,
+    "engine": "llamacpp",
+    "engineLabel": "llama.cpp",
+    "quantization": "Q4_K_M",
+    "generationTokSec": 120,
+    "sourceName": "AIProductivity M5 Max Guide",
+    "sourceUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+    "confidence": "reported",
+    "notes": "Engine comparison table; exact prompt/context not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "AIProductivity M5 Max Guide",
+        "url": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "claim": "Supports observed 120 tok/sec llama.cpp run for Meta Llama 3.1 8B on Apple M5 Max 40c unified.",
+        "quote": "Apple M5 Max Local LLM: 128GB Inference Guide 2026",
+        "quoteUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp CUDA performance discussion",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "Performance of llama.cpp on Nvidia CUDA · ggml-org/llama.cpp · Discussion #15013 · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "aiproductivity-m5max-phi4-q4-mlx",
+    "modelSlug": "phi-4",
+    "modelName": "Phi-4 14B",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max",
+    "numGpus": 1,
+    "engine": "mlx",
+    "engineLabel": "MLX",
+    "quantization": "Q4_K_M",
+    "generationTokSec": 140,
+    "sourceName": "AIProductivity M5 Max Guide",
+    "sourceUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+    "confidence": "reported",
+    "notes": "Engine comparison table; exact prompt/context not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "AIProductivity M5 Max Guide",
+        "url": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "claim": "Supports observed 140 tok/sec MLX run for Microsoft Phi-4 on Apple M5 Max 40c unified.",
+        "quote": "Apple M5 Max Local LLM: 128GB Inference Guide 2026",
+        "quoteUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Apple MLX examples repository",
+        "url": "https://github.com/ml-explore/mlx-examples",
+        "claim": "Supports runtime implementation or issue context for MLX benchmarks.",
+        "quote": "GitHub - ml-explore/mlx-examples: Examples in the MLX framework · GitHub",
+        "quoteUrl": "https://github.com/ml-explore/mlx-examples",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "aiproductivity-m5max-phi4-q4-ollama",
+    "modelSlug": "phi-4",
+    "modelName": "Phi-4 14B",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max",
+    "numGpus": 1,
+    "engine": "ollama",
+    "engineLabel": "Ollama",
+    "quantization": "Q4_K_M",
+    "generationTokSec": 95,
+    "sourceName": "AIProductivity M5 Max Guide",
+    "sourceUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+    "confidence": "reported",
+    "notes": "Engine comparison table; exact prompt/context not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "AIProductivity M5 Max Guide",
+        "url": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "claim": "Supports observed 95 tok/sec Ollama run for Microsoft Phi-4 on Apple M5 Max 40c unified.",
+        "quote": "Apple M5 Max Local LLM: 128GB Inference Guide 2026",
+        "quoteUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Ollama repository",
+        "url": "https://github.com/ollama/ollama",
+        "claim": "Supports runtime implementation or issue context for Ollama benchmarks.",
+        "quote": "GitHub - ollama/ollama: Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "Ollama Qwen3.5 performance issue",
+        "url": "https://github.com/ollama/ollama/issues/14861",
+        "claim": "Supports runtime implementation or issue context for Ollama benchmarks.",
+        "quote": "Massive difference in speed between Ollama and llama.cpp with qwen3.5:35b! · Issue #14861 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/14861",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "aiproductivity-m5max-phi4-q4-llamacpp",
+    "modelSlug": "phi-4",
+    "modelName": "Phi-4 14B",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max",
+    "numGpus": 1,
+    "engine": "llamacpp",
+    "engineLabel": "llama.cpp",
+    "quantization": "Q4_K_M",
+    "generationTokSec": 85,
+    "sourceName": "AIProductivity M5 Max Guide",
+    "sourceUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+    "confidence": "reported",
+    "notes": "Engine comparison table; exact prompt/context not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "AIProductivity M5 Max Guide",
+        "url": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "claim": "Supports observed 85 tok/sec llama.cpp run for Microsoft Phi-4 on Apple M5 Max 40c unified.",
+        "quote": "Apple M5 Max Local LLM: 128GB Inference Guide 2026",
+        "quoteUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp CUDA performance discussion",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "Performance of llama.cpp on Nvidia CUDA · ggml-org/llama.cpp · Discussion #15013 · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "aiproductivity-m5max-gemma2-27b-q4-mlx",
+    "modelSlug": "gemma-2-27b",
+    "modelName": "Gemma 2 27B",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max",
+    "numGpus": 1,
+    "engine": "mlx",
+    "engineLabel": "MLX",
+    "quantization": "Q4_K_M",
+    "generationTokSec": 75,
+    "sourceName": "AIProductivity M5 Max Guide",
+    "sourceUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+    "confidence": "reported",
+    "notes": "Engine comparison table; exact prompt/context not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "AIProductivity M5 Max Guide",
+        "url": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "claim": "Supports observed 75 tok/sec MLX run for Google Gemma 2 27B on Apple M5 Max 40c unified.",
+        "quote": "Apple M5 Max Local LLM: 128GB Inference Guide 2026",
+        "quoteUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Apple MLX examples repository",
+        "url": "https://github.com/ml-explore/mlx-examples",
+        "claim": "Supports runtime implementation or issue context for MLX benchmarks.",
+        "quote": "GitHub - ml-explore/mlx-examples: Examples in the MLX framework · GitHub",
+        "quoteUrl": "https://github.com/ml-explore/mlx-examples",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "aiproductivity-m5max-gemma2-27b-q4-ollama",
+    "modelSlug": "gemma-2-27b",
+    "modelName": "Gemma 2 27B",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max",
+    "numGpus": 1,
+    "engine": "ollama",
+    "engineLabel": "Ollama",
+    "quantization": "Q4_K_M",
+    "generationTokSec": 50,
+    "sourceName": "AIProductivity M5 Max Guide",
+    "sourceUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+    "confidence": "reported",
+    "notes": "Engine comparison table; exact prompt/context not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "AIProductivity M5 Max Guide",
+        "url": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "claim": "Supports observed 50 tok/sec Ollama run for Google Gemma 2 27B on Apple M5 Max 40c unified.",
+        "quote": "Apple M5 Max Local LLM: 128GB Inference Guide 2026",
+        "quoteUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Ollama repository",
+        "url": "https://github.com/ollama/ollama",
+        "claim": "Supports runtime implementation or issue context for Ollama benchmarks.",
+        "quote": "GitHub - ollama/ollama: Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "Ollama Qwen3.5 performance issue",
+        "url": "https://github.com/ollama/ollama/issues/14861",
+        "claim": "Supports runtime implementation or issue context for Ollama benchmarks.",
+        "quote": "Massive difference in speed between Ollama and llama.cpp with qwen3.5:35b! · Issue #14861 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/14861",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "aiproductivity-m5max-gemma2-27b-q4-llamacpp",
+    "modelSlug": "gemma-2-27b",
+    "modelName": "Gemma 2 27B",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max",
+    "numGpus": 1,
+    "engine": "llamacpp",
+    "engineLabel": "llama.cpp",
+    "quantization": "Q4_K_M",
+    "generationTokSec": 45,
+    "sourceName": "AIProductivity M5 Max Guide",
+    "sourceUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+    "confidence": "reported",
+    "notes": "Engine comparison table; exact prompt/context not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "AIProductivity M5 Max Guide",
+        "url": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "claim": "Supports observed 45 tok/sec llama.cpp run for Google Gemma 2 27B on Apple M5 Max 40c unified.",
+        "quote": "Apple M5 Max Local LLM: 128GB Inference Guide 2026",
+        "quoteUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp CUDA performance discussion",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "Performance of llama.cpp on Nvidia CUDA · ggml-org/llama.cpp · Discussion #15013 · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "aiproductivity-m5max-llama33-70b-q4-mlx",
+    "modelSlug": "llama-3-3-70b",
+    "modelName": "Llama 3.3 70B",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max",
+    "numGpus": 1,
+    "engine": "mlx",
+    "engineLabel": "MLX",
+    "quantization": "Q4_K_M",
+    "generationTokSec": 28,
+    "sourceName": "AIProductivity M5 Max Guide",
+    "sourceUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+    "confidence": "reported",
+    "notes": "Engine comparison table; exact prompt/context not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "AIProductivity M5 Max Guide",
+        "url": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "claim": "Supports observed 28 tok/sec MLX run for Meta Llama 3.3 70B on Apple M5 Max 40c unified.",
+        "quote": "Apple M5 Max Local LLM: 128GB Inference Guide 2026",
+        "quoteUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Apple MLX examples repository",
+        "url": "https://github.com/ml-explore/mlx-examples",
+        "claim": "Supports runtime implementation or issue context for MLX benchmarks.",
+        "quote": "GitHub - ml-explore/mlx-examples: Examples in the MLX framework · GitHub",
+        "quoteUrl": "https://github.com/ml-explore/mlx-examples",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "aiproductivity-m5max-llama33-70b-q4-ollama",
+    "modelSlug": "llama-3-3-70b",
+    "modelName": "Llama 3.3 70B",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max",
+    "numGpus": 1,
+    "engine": "ollama",
+    "engineLabel": "Ollama",
+    "quantization": "Q4_K_M",
+    "generationTokSec": 20,
+    "sourceName": "AIProductivity M5 Max Guide",
+    "sourceUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+    "confidence": "reported",
+    "notes": "Engine comparison table; exact prompt/context not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "AIProductivity M5 Max Guide",
+        "url": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "claim": "Supports observed 20 tok/sec Ollama run for Meta Llama 3.3 70B on Apple M5 Max 40c unified.",
+        "quote": "Apple M5 Max Local LLM: 128GB Inference Guide 2026",
+        "quoteUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Ollama repository",
+        "url": "https://github.com/ollama/ollama",
+        "claim": "Supports runtime implementation or issue context for Ollama benchmarks.",
+        "quote": "GitHub - ollama/ollama: Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "Ollama Qwen3.5 performance issue",
+        "url": "https://github.com/ollama/ollama/issues/14861",
+        "claim": "Supports runtime implementation or issue context for Ollama benchmarks.",
+        "quote": "Massive difference in speed between Ollama and llama.cpp with qwen3.5:35b! · Issue #14861 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/14861",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "aiproductivity-m5max-llama33-70b-q4-llamacpp",
+    "modelSlug": "llama-3-3-70b",
+    "modelName": "Llama 3.3 70B",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max",
+    "numGpus": 1,
+    "engine": "llamacpp",
+    "engineLabel": "llama.cpp",
+    "quantization": "Q4_K_M",
+    "generationTokSec": 18,
+    "sourceName": "AIProductivity M5 Max Guide",
+    "sourceUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+    "confidence": "reported",
+    "notes": "Engine comparison table; exact prompt/context not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "AIProductivity M5 Max Guide",
+        "url": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "claim": "Supports observed 18 tok/sec llama.cpp run for Meta Llama 3.3 70B on Apple M5 Max 40c unified.",
+        "quote": "Apple M5 Max Local LLM: 128GB Inference Guide 2026",
+        "quoteUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp CUDA performance discussion",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "Performance of llama.cpp on Nvidia CUDA · ggml-org/llama.cpp · Discussion #15013 · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "aiproductivity-m5max-llama33-70b-q8-mlx",
+    "modelSlug": "llama-3-3-70b",
+    "modelName": "Llama 3.3 70B",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max",
+    "numGpus": 1,
+    "engine": "mlx",
+    "engineLabel": "MLX",
+    "quantization": "Q8",
+    "generationTokSec": 16,
+    "sourceName": "AIProductivity M5 Max Guide",
+    "sourceUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+    "confidence": "reported",
+    "notes": "Engine comparison table; exact prompt/context not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "AIProductivity M5 Max Guide",
+        "url": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "claim": "Supports observed 16 tok/sec MLX run for Meta Llama 3.3 70B on Apple M5 Max 40c unified.",
+        "quote": "Apple M5 Max Local LLM: 128GB Inference Guide 2026",
+        "quoteUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Apple MLX examples repository",
+        "url": "https://github.com/ml-explore/mlx-examples",
+        "claim": "Supports runtime implementation or issue context for MLX benchmarks.",
+        "quote": "GitHub - ml-explore/mlx-examples: Examples in the MLX framework · GitHub",
+        "quoteUrl": "https://github.com/ml-explore/mlx-examples",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "aiproductivity-m5max-llama33-70b-q8-ollama",
+    "modelSlug": "llama-3-3-70b",
+    "modelName": "Llama 3.3 70B",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max",
+    "numGpus": 1,
+    "engine": "ollama",
+    "engineLabel": "Ollama",
+    "quantization": "Q8",
+    "generationTokSec": 12,
+    "sourceName": "AIProductivity M5 Max Guide",
+    "sourceUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+    "confidence": "reported",
+    "notes": "Engine comparison table; exact prompt/context not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "AIProductivity M5 Max Guide",
+        "url": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "claim": "Supports observed 12 tok/sec Ollama run for Meta Llama 3.3 70B on Apple M5 Max 40c unified.",
+        "quote": "Apple M5 Max Local LLM: 128GB Inference Guide 2026",
+        "quoteUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Ollama repository",
+        "url": "https://github.com/ollama/ollama",
+        "claim": "Supports runtime implementation or issue context for Ollama benchmarks.",
+        "quote": "GitHub - ollama/ollama: Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "Ollama Qwen3.5 performance issue",
+        "url": "https://github.com/ollama/ollama/issues/14861",
+        "claim": "Supports runtime implementation or issue context for Ollama benchmarks.",
+        "quote": "Massive difference in speed between Ollama and llama.cpp with qwen3.5:35b! · Issue #14861 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/14861",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "aiproductivity-m5max-llama33-70b-q8-llamacpp",
+    "modelSlug": "llama-3-3-70b",
+    "modelName": "Llama 3.3 70B",
+    "hardwareId": "m5max-128",
+    "hardwareName": "Apple M5 Max",
+    "numGpus": 1,
+    "engine": "llamacpp",
+    "engineLabel": "llama.cpp",
+    "quantization": "Q8",
+    "generationTokSec": 10,
+    "sourceName": "AIProductivity M5 Max Guide",
+    "sourceUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+    "confidence": "reported",
+    "notes": "Engine comparison table; exact prompt/context not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "AIProductivity M5 Max Guide",
+        "url": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "claim": "Supports observed 10 tok/sec llama.cpp run for Meta Llama 3.3 70B on Apple M5 Max 40c unified.",
+        "quote": "Apple M5 Max Local LLM: 128GB Inference Guide 2026",
+        "quoteUrl": "https://aiproductivity.ai/blog/apple-m5-max-local-llm-guide/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp CUDA performance discussion",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "Performance of llama.cpp on Nvidia CUDA · ggml-org/llama.cpp · Discussion #15013 · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "spheron-h100-llama33-70b-fp8-vllm-50req",
+    "modelSlug": "llama-3-3-70b",
+    "modelName": "Llama 3.3 70B Instruct",
+    "hardwareId": "h100-sxm-80",
+    "hardwareName": "NVIDIA H100 SXM 80GB",
+    "numGpus": 1,
+    "concurrentRequests": 50,
+    "engine": "vllm",
+    "engineLabel": "vLLM",
+    "quantization": "FP8",
+    "contextTokens": 512,
+    "maxOutputTokens": 256,
+    "generationTokSec": 1850,
+    "ttftMs": 380,
+    "peakMemoryGb": 76,
+    "sourceName": "Spheron H100 Runtime Comparison",
+    "sourceUrl": "https://www.spheron.network/blog/vllm-vs-tensorrt-llm-vs-sglang-benchmarks/",
+    "confidence": "reported",
+    "notes": "Single H100 SXM run, 50 concurrent requests, average 512-token input and 256-token output.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "Spheron H100 Runtime Comparison",
+        "url": "https://www.spheron.network/blog/vllm-vs-tensorrt-llm-vs-sglang-benchmarks/",
+        "claim": "Supports observed 1850 tok/sec vLLM run for Meta Llama 3.3 70B on NVIDIA H100 SXM.",
+        "quote": "vLLM vs TensorRT-LLM vs SGLang: H100 Benchmarks (2026) | Spheron Blog",
+        "quoteUrl": "https://www.spheron.network/blog/vllm-vs-tensorrt-llm-vs-sglang-benchmarks/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "vLLM repository",
+        "url": "https://github.com/vllm-project/vllm",
+        "claim": "Supports runtime implementation or issue context for vLLM benchmarks.",
+        "quote": "GitHub - vllm-project/vllm: A high-throughput and memory-efficient inference and serving engine for LLMs · GitHub",
+        "quoteUrl": "https://github.com/vllm-project/vllm",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "spheron-h100-llama33-70b-fp8-tensorrt-50req",
+    "modelSlug": "llama-3-3-70b",
+    "modelName": "Llama 3.3 70B Instruct",
+    "hardwareId": "h100-sxm-80",
+    "hardwareName": "NVIDIA H100 SXM 80GB",
+    "numGpus": 1,
+    "concurrentRequests": 50,
+    "engine": "tensorrt",
+    "engineLabel": "TensorRT-LLM",
+    "quantization": "FP8",
+    "contextTokens": 512,
+    "maxOutputTokens": 256,
+    "generationTokSec": 2100,
+    "ttftMs": 340,
+    "peakMemoryGb": 77,
+    "sourceName": "Spheron H100 Runtime Comparison",
+    "sourceUrl": "https://www.spheron.network/blog/vllm-vs-tensorrt-llm-vs-sglang-benchmarks/",
+    "confidence": "reported",
+    "notes": "Compiled TensorRT-LLM engine, 50 concurrent requests, average 512-token input and 256-token output.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "Spheron H100 Runtime Comparison",
+        "url": "https://www.spheron.network/blog/vllm-vs-tensorrt-llm-vs-sglang-benchmarks/",
+        "claim": "Supports observed 2100 tok/sec TensorRT-LLM run for Meta Llama 3.3 70B on NVIDIA H100 SXM.",
+        "quote": "vLLM vs TensorRT-LLM vs SGLang: H100 Benchmarks (2026) | Spheron Blog",
+        "quoteUrl": "https://www.spheron.network/blog/vllm-vs-tensorrt-llm-vs-sglang-benchmarks/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "TensorRT-LLM repository",
+        "url": "https://github.com/NVIDIA/TensorRT-LLM",
+        "claim": "Supports runtime implementation or issue context for TensorRT-LLM benchmarks.",
+        "quote": "GitHub - NVIDIA/TensorRT-LLM: TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference",
+        "quoteUrl": "https://github.com/NVIDIA/TensorRT-LLM",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "spheron-h100-llama33-70b-fp8-sglang-50req",
+    "modelSlug": "llama-3-3-70b",
+    "modelName": "Llama 3.3 70B Instruct",
+    "hardwareId": "h100-sxm-80",
+    "hardwareName": "NVIDIA H100 SXM 80GB",
+    "numGpus": 1,
+    "concurrentRequests": 50,
+    "engine": "sglang",
+    "engineLabel": "SGLang",
+    "quantization": "FP8",
+    "contextTokens": 512,
+    "maxOutputTokens": 256,
+    "generationTokSec": 1920,
+    "ttftMs": 360,
+    "peakMemoryGb": 75,
+    "sourceName": "Spheron H100 Runtime Comparison",
+    "sourceUrl": "https://www.spheron.network/blog/vllm-vs-tensorrt-llm-vs-sglang-benchmarks/",
+    "confidence": "reported",
+    "notes": "Single H100 SXM run, 50 concurrent requests, average 512-token input and 256-token output.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "Spheron H100 Runtime Comparison",
+        "url": "https://www.spheron.network/blog/vllm-vs-tensorrt-llm-vs-sglang-benchmarks/",
+        "claim": "Supports observed 1920 tok/sec SGLang run for Meta Llama 3.3 70B on NVIDIA H100 SXM.",
+        "quote": "vLLM vs TensorRT-LLM vs SGLang: H100 Benchmarks (2026) | Spheron Blog",
+        "quoteUrl": "https://www.spheron.network/blog/vllm-vs-tensorrt-llm-vs-sglang-benchmarks/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "SGLang repository",
+        "url": "https://github.com/sgl-project/sglang",
+        "claim": "Supports runtime implementation or issue context for SGLang benchmarks.",
+        "quote": "GitHub - sgl-project/sglang: SGLang is a high-performance serving framework for large language models and multimodal models. · GitHub",
+        "quoteUrl": "https://github.com/sgl-project/sglang",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "cerebrium-h100-llama3-8b-fp8-tensorrt",
+    "modelSlug": "llama-3-8b",
+    "modelName": "Llama 3 8B Instruct",
+    "hardwareId": "h100-sxm-80",
+    "hardwareName": "NVIDIA H100",
+    "numGpus": 1,
+    "engine": "tensorrt",
+    "engineLabel": "TensorRT-LLM",
+    "quantization": "FP8",
+    "generationTokSec": 19000,
+    "sourceName": "Cerebrium TensorRT-LLM Tutorial",
+    "sourceUrl": "https://cerebrium.ai/blog/running-llama-3-8b-with-tensorrt-llm-on-serverless-gpus",
+    "confidence": "reported",
+    "notes": "Tutorial reports an H100 can reach approximately 19K output tokens/sec; exact prompt and concurrency not published.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "Cerebrium TensorRT-LLM Tutorial",
+        "url": "https://cerebrium.ai/blog/running-llama-3-8b-with-tensorrt-llm-on-serverless-gpus",
+        "claim": "Supports observed 19000 tok/sec TensorRT-LLM run for Meta Llama 3 8B on NVIDIA H100 SXM.",
+        "quote": "Llama 3 8B with TensorRT-LLM on Serverless GPUs | Cerebrium",
+        "quoteUrl": "https://cerebrium.ai/blog/running-llama-3-8b-with-tensorrt-llm-on-serverless-gpus",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "TensorRT-LLM repository",
+        "url": "https://github.com/NVIDIA/TensorRT-LLM",
+        "claim": "Supports runtime implementation or issue context for TensorRT-LLM benchmarks.",
+        "quote": "GitHub - NVIDIA/TensorRT-LLM: TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference",
+        "quoteUrl": "https://github.com/NVIDIA/TensorRT-LLM",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "nvidia-h200-llama2-13b-fp8-tensorrt-b1024",
+    "modelSlug": "llama-2-13b",
+    "modelName": "Llama 2 13B",
+    "hardwareId": "h200-141",
+    "hardwareName": "NVIDIA H200",
+    "numGpus": 1,
+    "batchSize": 1024,
+    "engine": "tensorrt",
+    "engineLabel": "TensorRT-LLM",
+    "quantization": "FP8",
+    "contextTokens": 128,
+    "maxOutputTokens": 128,
+    "generationTokSec": 11819,
+    "sourceName": "NVIDIA TensorRT-LLM H200 Launch",
+    "sourceUrl": "https://nvidia.github.io/TensorRT-LLM/blogs/H200launch.html",
+    "confidence": "reported",
+    "notes": "Official TensorRT-LLM H200 max-throughput row for Llama2-13B, batch 1024, TP=1.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "NVIDIA TensorRT-LLM H200 Launch",
+        "url": "https://nvidia.github.io/TensorRT-LLM/blogs/H200launch.html",
+        "claim": "Supports observed 11819 tok/sec TensorRT-LLM run for Meta Llama 2 13B on NVIDIA H200.",
+        "quote": "H200 achieves nearly 12,000 tokens/sec on Llama2-13B with TensorRT LLM &#8212; TensorRT LLM",
+        "quoteUrl": "https://nvidia.github.io/TensorRT-LLM/blogs/H200launch.html",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "TensorRT-LLM repository",
+        "url": "https://github.com/NVIDIA/TensorRT-LLM",
+        "claim": "Supports runtime implementation or issue context for TensorRT-LLM benchmarks.",
+        "quote": "GitHub - NVIDIA/TensorRT-LLM: TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference",
+        "quoteUrl": "https://github.com/NVIDIA/TensorRT-LLM",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "mlc-h100-llama3-8b-fp16-30req",
+    "modelSlug": "llama-3-8b",
+    "modelName": "Llama 3 8B Instruct",
+    "hardwareId": "h100-sxm-80",
+    "hardwareName": "NVIDIA H100 SXM",
+    "numGpus": 1,
+    "concurrentRequests": 30,
+    "engine": "mlc",
+    "engineLabel": "MLCEngine",
+    "quantization": "FP16",
+    "generationTokSec": 3000,
+    "sourceName": "MLC MLCEngine Benchmark",
+    "sourceUrl": "https://blog.mlc.ai/2024/10/10/optimizing-and-characterizing-high-throughput-low-latency-llm-inference",
+    "confidence": "reported",
+    "notes": "MLC reports maintaining about 30 concurrent users at a 100 tok/s latency target on Llama3 8B.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "MLC MLCEngine Benchmark",
+        "url": "https://blog.mlc.ai/2024/10/10/optimizing-and-characterizing-high-throughput-low-latency-llm-inference",
+        "claim": "Supports observed 3000 tok/sec MLCEngine run for Meta Llama 3 8B on NVIDIA H100 SXM.",
+        "quote": "MLC | Optimizing and Characterizing High-Throughput Low-Latency LLM Inference in MLCEngine",
+        "quoteUrl": "https://blog.mlc.ai/2024/10/10/optimizing-and-characterizing-high-throughput-low-latency-llm-inference",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "MLC LLM repository",
+        "url": "https://github.com/mlc-ai/mlc-llm",
+        "claim": "Supports runtime implementation or issue context for MLCEngine benchmarks.",
+        "quote": "GitHub - mlc-ai/mlc-llm: Universal LLM Deployment Engine with ML Compilation · GitHub",
+        "quoteUrl": "https://github.com/mlc-ai/mlc-llm",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "llamacpp-cuda-h100-llama2-7b-q40-no-fa",
+    "modelSlug": "llama-2-7b",
+    "modelName": "Llama 2 7B",
+    "hardwareId": "h100-sxm-80",
+    "hardwareName": "NVIDIA H100 80GB",
+    "numGpus": 1,
+    "engine": "llamacpp",
+    "engineLabel": "llama.cpp CUDA",
+    "quantization": "Q4_0",
+    "prefillTokSec": 9918.34,
+    "generationTokSec": 267.81,
+    "sourceName": "llama.cpp CUDA Scoreboard",
+    "sourceUrl": "https://knightli.com/en/2026/04/23/llama-cpp-gpu-benchmark-cuda-rocm-vulkan-scoreboard/",
+    "confidence": "reported",
+    "notes": "CUDA scoreboard row for Llama 2 7B Q4_0 without flash attention; pp512 used as prefill proxy and tg128 as decode.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "llama.cpp CUDA Scoreboard",
+        "url": "https://knightli.com/en/2026/04/23/llama-cpp-gpu-benchmark-cuda-rocm-vulkan-scoreboard/",
+        "claim": "Supports observed 267.81 tok/sec llama.cpp CUDA run for Meta Llama 2 7B on NVIDIA H100 SXM.",
+        "quote": "llama.cpp GPU Performance Ranking: Full CUDA, ROCm, and Vulkan Scoreboards Explained with pp512 / tg128 / FA",
+        "quoteUrl": "https://knightli.com/en/2026/04/23/llama-cpp-gpu-benchmark-cuda-rocm-vulkan-scoreboard/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports runtime implementation or issue context for llama.cpp CUDA benchmarks.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp CUDA performance discussion",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "claim": "Supports runtime implementation or issue context for llama.cpp CUDA benchmarks.",
+        "quote": "Performance of llama.cpp on Nvidia CUDA · ggml-org/llama.cpp · Discussion #15013 · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "llamacpp-cuda-a100-llama2-7b-q40-no-fa",
+    "modelSlug": "llama-2-7b",
+    "modelName": "Llama 2 7B",
+    "hardwareId": "a100-80",
+    "hardwareName": "NVIDIA A100 80GB",
+    "numGpus": 1,
+    "engine": "llamacpp",
+    "engineLabel": "llama.cpp CUDA",
+    "quantization": "Q4_0",
+    "prefillTokSec": 4849.53,
+    "generationTokSec": 190.88,
+    "sourceName": "llama.cpp CUDA Scoreboard",
+    "sourceUrl": "https://knightli.com/en/2026/04/23/llama-cpp-gpu-benchmark-cuda-rocm-vulkan-scoreboard/",
+    "confidence": "reported",
+    "notes": "CUDA scoreboard row for Llama 2 7B Q4_0 without flash attention; pp512 used as prefill proxy and tg128 as decode.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "llama.cpp CUDA Scoreboard",
+        "url": "https://knightli.com/en/2026/04/23/llama-cpp-gpu-benchmark-cuda-rocm-vulkan-scoreboard/",
+        "claim": "Supports observed 190.88 tok/sec llama.cpp CUDA run for Meta Llama 2 7B on NVIDIA A100.",
+        "quote": "llama.cpp GPU Performance Ranking: Full CUDA, ROCm, and Vulkan Scoreboards Explained with pp512 / tg128 / FA",
+        "quoteUrl": "https://knightli.com/en/2026/04/23/llama-cpp-gpu-benchmark-cuda-rocm-vulkan-scoreboard/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports runtime implementation or issue context for llama.cpp CUDA benchmarks.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp CUDA performance discussion",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "claim": "Supports runtime implementation or issue context for llama.cpp CUDA benchmarks.",
+        "quote": "Performance of llama.cpp on Nvidia CUDA · ggml-org/llama.cpp · Discussion #15013 · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "ante-qwen35-35b-m4max-mlx-py-4bit",
+    "modelSlug": "qwen35-35b-a3b",
+    "modelName": "Qwen3.5-35B-A3B",
+    "hardwareId": "m4max-128",
+    "hardwareName": "Apple M4 Max 128GB",
+    "numGpus": 1,
+    "engine": "mlx",
+    "engineLabel": "MLX Python",
+    "quantization": "4-bit",
+    "contextTokens": 65536,
+    "generationTokSec": 130.2,
+    "sourceName": "Ante Kapetanovic Qwen3.5 Apple Silicon Benchmark",
+    "sourceUrl": "https://antekapetanovic.com/blog/qwen3.5-apple-silicon-benchmark/",
+    "confidence": "reported",
+    "notes": "Native MLX Python deterministic/no-thinking row, 10 measured runs on M4 Max 128GB.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "Ante Kapetanovic Qwen3.5 Apple Silicon Benchmark",
+        "url": "https://antekapetanovic.com/blog/qwen3.5-apple-silicon-benchmark/",
+        "claim": "Supports observed 130.2 tok/sec MLX Python run for Qwen Qwen3.5-35B-A3B on Apple M4 Max unified.",
+        "quote": "Ollama vs. llama.cpp vs. MLX with Qwen3.5 35B on Apple Silicon | Ante Kapetanovic",
+        "quoteUrl": "https://antekapetanovic.com/blog/qwen3.5-apple-silicon-benchmark/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Apple MLX examples repository",
+        "url": "https://github.com/ml-explore/mlx-examples",
+        "claim": "Supports runtime implementation or issue context for MLX Python benchmarks.",
+        "quote": "GitHub - ml-explore/mlx-examples: Examples in the MLX framework · GitHub",
+        "quoteUrl": "https://github.com/ml-explore/mlx-examples",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "Qwen3.5 Apple Silicon benchmark script",
+        "url": "https://github.com/akapet00/akapet00.github.io/blob/main/scripts/qwen3.5-apple-silicon-benchmark/benchmark.py",
+        "claim": "Supports runtime implementation or issue context for MLX Python benchmarks.",
+        "quote": "akapet00.github.io/scripts/qwen3.5-apple-silicon-benchmark/benchmark.py at main · akapet00/akapet00.github.io · GitHub",
+        "quoteUrl": "https://github.com/akapet00/akapet00.github.io/blob/main/scripts/qwen3.5-apple-silicon-benchmark/benchmark.py",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "reddit",
+        "label": "Qwen3.5 35B A3B Apple Silicon benchmark discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rsas71/qwen3535ba3b_benchmark_on_macbook_prom4_pro_chip/",
+        "claim": "Supports community-reported benchmark context for Qwen Qwen3.5-35B-A3B.",
+        "quote": "Qwen3.5-35B-A3B Benchmark On MacBook Pro(M4 Pro Chip + 48GB Unified Memory)",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rsas71/qwen3535ba3b_benchmark_on_macbook_prom4_pro_chip/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "ante-qwen35-35b-m4max-mlx-http-4bit",
+    "modelSlug": "qwen35-35b-a3b",
+    "modelName": "Qwen3.5-35B-A3B",
+    "hardwareId": "m4max-128",
+    "hardwareName": "Apple M4 Max 128GB",
+    "numGpus": 1,
+    "engine": "mlx",
+    "engineLabel": "MLX HTTP",
+    "quantization": "4-bit",
+    "contextTokens": 65536,
+    "generationTokSec": 107.6,
+    "sourceName": "Ante Kapetanovic Qwen3.5 Apple Silicon Benchmark",
+    "sourceUrl": "https://antekapetanovic.com/blog/qwen3.5-apple-silicon-benchmark/",
+    "confidence": "reported",
+    "notes": "MLX HTTP deterministic/no-thinking client-side row, 10 measured runs on M4 Max 128GB.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "Ante Kapetanovic Qwen3.5 Apple Silicon Benchmark",
+        "url": "https://antekapetanovic.com/blog/qwen3.5-apple-silicon-benchmark/",
+        "claim": "Supports observed 107.6 tok/sec MLX HTTP run for Qwen Qwen3.5-35B-A3B on Apple M4 Max unified.",
+        "quote": "Ollama vs. llama.cpp vs. MLX with Qwen3.5 35B on Apple Silicon | Ante Kapetanovic",
+        "quoteUrl": "https://antekapetanovic.com/blog/qwen3.5-apple-silicon-benchmark/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Apple MLX examples repository",
+        "url": "https://github.com/ml-explore/mlx-examples",
+        "claim": "Supports runtime implementation or issue context for MLX HTTP benchmarks.",
+        "quote": "GitHub - ml-explore/mlx-examples: Examples in the MLX framework · GitHub",
+        "quoteUrl": "https://github.com/ml-explore/mlx-examples",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "Qwen3.5 Apple Silicon benchmark script",
+        "url": "https://github.com/akapet00/akapet00.github.io/blob/main/scripts/qwen3.5-apple-silicon-benchmark/benchmark.py",
+        "claim": "Supports runtime implementation or issue context for MLX HTTP benchmarks.",
+        "quote": "akapet00.github.io/scripts/qwen3.5-apple-silicon-benchmark/benchmark.py at main · akapet00/akapet00.github.io · GitHub",
+        "quoteUrl": "https://github.com/akapet00/akapet00.github.io/blob/main/scripts/qwen3.5-apple-silicon-benchmark/benchmark.py",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "reddit",
+        "label": "Qwen3.5 35B A3B Apple Silicon benchmark discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rsas71/qwen3535ba3b_benchmark_on_macbook_prom4_pro_chip/",
+        "claim": "Supports community-reported benchmark context for Qwen Qwen3.5-35B-A3B.",
+        "quote": "Qwen3.5-35B-A3B Benchmark On MacBook Pro(M4 Pro Chip + 48GB Unified Memory)",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rsas71/qwen3535ba3b_benchmark_on_macbook_prom4_pro_chip/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "ante-qwen35-35b-m4max-ollama-q4km",
+    "modelSlug": "qwen35-35b-a3b",
+    "modelName": "Qwen3.5-35B-A3B",
+    "hardwareId": "m4max-128",
+    "hardwareName": "Apple M4 Max 128GB",
+    "numGpus": 1,
+    "engine": "ollama",
+    "engineLabel": "Ollama",
+    "quantization": "Q4_K_M",
+    "contextTokens": 65536,
+    "generationTokSec": 43.5,
+    "sourceName": "Ante Kapetanovic Qwen3.5 Apple Silicon Benchmark",
+    "sourceUrl": "https://antekapetanovic.com/blog/qwen3.5-apple-silicon-benchmark/",
+    "confidence": "reported",
+    "notes": "Ollama deterministic/no-thinking native eval-rate row, 10 measured runs on M4 Max 128GB.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "Ante Kapetanovic Qwen3.5 Apple Silicon Benchmark",
+        "url": "https://antekapetanovic.com/blog/qwen3.5-apple-silicon-benchmark/",
+        "claim": "Supports observed 43.5 tok/sec Ollama run for Qwen Qwen3.5-35B-A3B on Apple M4 Max unified.",
+        "quote": "Ollama vs. llama.cpp vs. MLX with Qwen3.5 35B on Apple Silicon | Ante Kapetanovic",
+        "quoteUrl": "https://antekapetanovic.com/blog/qwen3.5-apple-silicon-benchmark/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "Ollama repository",
+        "url": "https://github.com/ollama/ollama",
+        "claim": "Supports runtime implementation or issue context for Ollama benchmarks.",
+        "quote": "GitHub - ollama/ollama: Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "Ollama Qwen3.5 performance issue",
+        "url": "https://github.com/ollama/ollama/issues/14861",
+        "claim": "Supports runtime implementation or issue context for Ollama benchmarks.",
+        "quote": "Massive difference in speed between Ollama and llama.cpp with qwen3.5:35b! · Issue #14861 · ollama/ollama · GitHub",
+        "quoteUrl": "https://github.com/ollama/ollama/issues/14861",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "Qwen3.5 Apple Silicon benchmark script",
+        "url": "https://github.com/akapet00/akapet00.github.io/blob/main/scripts/qwen3.5-apple-silicon-benchmark/benchmark.py",
+        "claim": "Supports runtime implementation or issue context for Ollama benchmarks.",
+        "quote": "akapet00.github.io/scripts/qwen3.5-apple-silicon-benchmark/benchmark.py at main · akapet00/akapet00.github.io · GitHub",
+        "quoteUrl": "https://github.com/akapet00/akapet00.github.io/blob/main/scripts/qwen3.5-apple-silicon-benchmark/benchmark.py",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "reddit",
+        "label": "Qwen3.5 35B A3B Apple Silicon benchmark discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rsas71/qwen3535ba3b_benchmark_on_macbook_prom4_pro_chip/",
+        "claim": "Supports community-reported benchmark context for Qwen Qwen3.5-35B-A3B.",
+        "quote": "Qwen3.5-35B-A3B Benchmark On MacBook Pro(M4 Pro Chip + 48GB Unified Memory)",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rsas71/qwen3535ba3b_benchmark_on_macbook_prom4_pro_chip/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  },
+  {
+    "id": "ante-qwen35-35b-m4max-llamacpp-q4kxl",
+    "modelSlug": "qwen35-35b-a3b",
+    "modelName": "Qwen3.5-35B-A3B",
+    "hardwareId": "m4max-128",
+    "hardwareName": "Apple M4 Max 128GB",
+    "numGpus": 1,
+    "engine": "llamacpp",
+    "engineLabel": "llama.cpp",
+    "quantization": "Q4_K_XL",
+    "contextTokens": 65536,
+    "generationTokSec": 71,
+    "sourceName": "Ante Kapetanovic Qwen3.5 Apple Silicon Benchmark",
+    "sourceUrl": "https://antekapetanovic.com/blog/qwen3.5-apple-silicon-benchmark/",
+    "confidence": "reported",
+    "notes": "llama.cpp deterministic/no-thinking native eval-rate row, 10 measured runs on M4 Max 128GB.",
+    "evidence": [
+      {
+        "kind": "benchmark",
+        "label": "Ante Kapetanovic Qwen3.5 Apple Silicon Benchmark",
+        "url": "https://antekapetanovic.com/blog/qwen3.5-apple-silicon-benchmark/",
+        "claim": "Supports observed 71 tok/sec llama.cpp run for Qwen Qwen3.5-35B-A3B on Apple M4 Max unified.",
+        "quote": "Ollama vs. llama.cpp vs. MLX with Qwen3.5 35B on Apple Silicon | Ante Kapetanovic",
+        "quoteUrl": "https://antekapetanovic.com/blog/qwen3.5-apple-silicon-benchmark/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "primary"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp benchmark discussions",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "ggml-org/llama.cpp · Discussions · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "llama.cpp CUDA performance discussion",
+        "url": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "Performance of llama.cpp on Nvidia CUDA · ggml-org/llama.cpp · Discussion #15013 · GitHub",
+        "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "github",
+        "label": "Qwen3.5 Apple Silicon benchmark script",
+        "url": "https://github.com/akapet00/akapet00.github.io/blob/main/scripts/qwen3.5-apple-silicon-benchmark/benchmark.py",
+        "claim": "Supports runtime implementation or issue context for llama.cpp benchmarks.",
+        "quote": "akapet00.github.io/scripts/qwen3.5-apple-silicon-benchmark/benchmark.py at main · akapet00/akapet00.github.io · GitHub",
+        "quoteUrl": "https://github.com/akapet00/akapet00.github.io/blob/main/scripts/qwen3.5-apple-silicon-benchmark/benchmark.py",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      },
+      {
+        "kind": "reddit",
+        "label": "Qwen3.5 35B A3B Apple Silicon benchmark discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rsas71/qwen3535ba3b_benchmark_on_macbook_prom4_pro_chip/",
+        "claim": "Supports community-reported benchmark context for Qwen Qwen3.5-35B-A3B.",
+        "quote": "Qwen3.5-35B-A3B Benchmark On MacBook Pro(M4 Pro Chip + 48GB Unified Memory)",
+        "quoteUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rsas71/qwen3535ba3b_benchmark_on_macbook_prom4_pro_chip/",
+        "accessedAt": "2026-06-09",
+        "sourceTier": "community"
+      }
+    ]
+  }
+]

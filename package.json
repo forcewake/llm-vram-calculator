@@ -1,0 +1,26 @@
+{
+  "name": "llm-vram-calculator",
+  "version": "1.0.0",
+  "description": "Source-backed LLM inference VRAM and performance calculator.",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "npm run test:data",
+    "test:data": "node tests/data-provenance.test.mjs",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@mantine/core": "^9.3.0",
+    "@mantine/hooks": "^9.3.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "lucide-react": "^0.561.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "vite": "^7.2.6"
+  },
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}

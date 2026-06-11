@@ -1,0 +1,145 @@
+[
+  {
+    "id": "anyscale-ttft-definition",
+    "kind": "docs",
+    "label": "Anyscale TTFT definition",
+    "url": "https://docs.anyscale.com/llm/serving/benchmarking/metrics",
+    "claim": "Defines Time to First Token as the first-response latency used by the calculator.",
+    "quote": "time elapsed between submitting a prompt and receiving the first token",
+    "quoteUrl": "https://docs.anyscale.com/llm/serving/benchmarking/metrics#time-to-first-token-ttft",
+    "accessedAt": "2026-06-09",
+    "sourceTier": "primary"
+  },
+  {
+    "id": "anyscale-decode-itl",
+    "kind": "docs",
+    "label": "Anyscale decode and ITL definition",
+    "url": "https://docs.anyscale.com/llm/serving/benchmarking/metrics",
+    "claim": "Defines the decode phase as token-by-token generation using the KV cache.",
+    "quote": "After the first token, the model generates tokens one at a time using the KV cache.",
+    "quoteUrl": "https://docs.anyscale.com/llm/serving/benchmarking/metrics#what-influences-tpot-or-itl",
+    "accessedAt": "2026-06-09",
+    "sourceTier": "primary"
+  },
+  {
+    "id": "hf-prefill-decode-process",
+    "kind": "docs",
+    "label": "Hugging Face prefill/decode process",
+    "url": "https://huggingface.co/blog/tgi-benchmarking",
+    "claim": "Explains why prefill and decode are tracked as separate performance phases.",
+    "quote": "pre-filling only needs 1 forward pass through the model, but decoding can take hundreds or more.",
+    "quoteUrl": "https://huggingface.co/blog/tgi-benchmarking#pre-filling-and-decoding",
+    "accessedAt": "2026-06-09",
+    "sourceTier": "primary"
+  },
+  {
+    "id": "hf-ttft-prefill",
+    "kind": "docs",
+    "label": "Hugging Face TTFT and prefill",
+    "url": "https://huggingface.co/learn/llm-course/chapter1/8",
+    "claim": "Supports treating TTFT as primarily affected by prefill work.",
+    "quote": "Time to First Token (TTFT): How quickly can you get the first response?",
+    "quoteUrl": "https://huggingface.co/learn/llm-course/chapter1/8#key-performance-metrics",
+    "accessedAt": "2026-06-09",
+    "sourceTier": "primary"
+  },
+  {
+    "id": "hf-context-cost",
+    "kind": "docs",
+    "label": "Hugging Face context length cost",
+    "url": "https://huggingface.co/learn/llm-course/chapter1/8",
+    "claim": "Supports using context length as a TTFT and prefill risk driver.",
+    "quote": "Processing Speed: Decreases linearly with longer contexts",
+    "quoteUrl": "https://huggingface.co/learn/llm-course/chapter1/8#the-context-length-challenge",
+    "accessedAt": "2026-06-09",
+    "sourceTier": "primary"
+  },
+  {
+    "id": "vllm-benchmark-cli",
+    "kind": "docs",
+    "label": "vLLM benchmark CLI metrics",
+    "url": "https://docs.vllm.ai/en/latest/benchmarking/cli/",
+    "claim": "Supports vLLM observed benchmark fields for TTFT and decode time.",
+    "quote": "reports end-to-end latency (TTFT + decode time) per request",
+    "quoteUrl": "https://docs.vllm.ai/en/latest/benchmarking/cli/",
+    "accessedAt": "2026-06-09",
+    "sourceTier": "primary"
+  },
+  {
+    "id": "sglang-bench-serving",
+    "kind": "docs",
+    "label": "SGLang serving benchmark metrics",
+    "url": "https://sgl-project.github.io/developer_guide/bench_serving.html",
+    "claim": "Supports SGLang and compatible-backend observed benchmark fields.",
+    "quote": "Measures throughput, time-to-first-token (TTFT), inter-token latency (ITL), per-request end-to-end latency, and more",
+    "quoteUrl": "https://sgl-project.github.io/developer_guide/bench_serving.html#what-it-does",
+    "accessedAt": "2026-06-09",
+    "sourceTier": "primary"
+  },
+  {
+    "id": "tensorrt-llm-performance-overview",
+    "kind": "docs",
+    "label": "TensorRT-LLM performance overview",
+    "url": "https://nvidia.github.io/TensorRT-LLM/performance/perf-overview.html",
+    "claim": "Supports TensorRT-LLM runtime calibration as reference performance, not guaranteed peak output.",
+    "quote": "summarizes performance measurements of TensorRT-LLM on a number of GPUs across a set of key models",
+    "quoteUrl": "https://nvidia.github.io/TensorRT-LLM/performance/perf-overview.html#overview",
+    "accessedAt": "2026-06-09",
+    "sourceTier": "primary"
+  },
+  {
+    "id": "llamacpp-pp-tg-bench",
+    "kind": "github",
+    "label": "llama.cpp prefill/generation benchmark split",
+    "url": "https://github.com/ggml-org/llama.cpp/discussions/16578",
+    "claim": "Supports mapping llama.cpp pp to prefill speed and tg to decode speed.",
+    "quote": "Prefill (`pp`) and generation (`tg`) at various context depths (`d`)",
+    "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions/16578",
+    "accessedAt": "2026-06-09",
+    "sourceTier": "community"
+  },
+  {
+    "id": "llamacpp-cuda-benchmark",
+    "kind": "github",
+    "label": "llama.cpp CUDA benchmark instructions",
+    "url": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+    "claim": "Supports CUDA local benchmark rows based on llama-bench methodology.",
+    "quote": "llama-bench -m llama-2-7b.Q4_0.gguf -ngl 99 -fa 0,1",
+    "quoteUrl": "https://github.com/ggml-org/llama.cpp/discussions/15013",
+    "accessedAt": "2026-06-09",
+    "sourceTier": "community"
+  },
+  {
+    "id": "mlx-bandwidth-model",
+    "kind": "github",
+    "label": "MLX benchmark bandwidth model",
+    "url": "https://github.com/ml-explore/mlx/discussions/3300",
+    "claim": "Supports bandwidth-driven decode estimates for Apple Silicon MLX profiles.",
+    "quote": "TPS = bandwidth / model_size predicts measured results within 5%.",
+    "quoteUrl": "https://github.com/ml-explore/mlx/discussions/3300",
+    "accessedAt": "2026-06-09",
+    "sourceTier": "community"
+  },
+  {
+    "id": "mlx-active-params-moe",
+    "kind": "github",
+    "label": "MLX benchmark MoE active-parameter finding",
+    "url": "https://github.com/ml-explore/mlx/discussions/3300",
+    "claim": "Supports using active parameters rather than total parameters for MoE decode speed estimates.",
+    "quote": "You must use active parameter count.",
+    "quoteUrl": "https://github.com/ml-explore/mlx/discussions/3300",
+    "accessedAt": "2026-06-09",
+    "sourceTier": "community"
+  },
+  {
+    "id": "exllamav3-runtime-features",
+    "kind": "github",
+    "label": "ExLlamaV3 runtime features",
+    "url": "https://github.com/turboderp-org/exllamav3",
+    "claim": "Supports ExLlamaV3 as a consumer-GPU runtime with batching, speculative decoding, and KV cache quantization.",
+    "quote": "Continuous, dynamic batching",
+    "quoteUrl": "https://github.com/turboderp-org/exllamav3",
+    "accessedAt": "2026-06-09",
+    "sourceTier": "community"
+  }
+]
