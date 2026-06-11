@@ -459,6 +459,7 @@ function createProfile(seed = {}) {
 }
 
 function App() {
+  const [activePage, setActivePage] = useState('calculator');
   const [mode, setMode] = useState('inference');
   const [selectedModelId, setSelectedModelId] = useState(defaultModel.id);
   const [selectedHardwareId, setSelectedHardwareId] = useState(defaultHardware.id);
@@ -632,27 +633,42 @@ function App() {
           <header className="topbar">
             <div>
               <h1>{mode === 'inference' ? 'LLM Inference: VRAM & Performance Calculator' : `${trainingMethod.toUpperCase()} Fine-tuning: VRAM & Cost Calculator`}</h1>
+              <p>Plan memory, speed, and fit first. Compare and source research live in separate workspaces.</p>
             </div>
+            <SegmentedControl
+              className="app-tabs"
+              value={activePage}
+              onChange={setActivePage}
+              data={[
+                { value: 'calculator', label: <span className="segment-label"><Zap size={17} />Calculator</span> },
+                { value: 'compare', label: <span className="segment-label"><Copy size={17} />Compare Profiles</span> },
+                { value: 'evidence', label: <span className="segment-label"><Database size={17} />Evidence & Benchmarks</span> }
+              ]}
+              size="sm"
+              radius="md"
+            />
           </header>
 
-          <SegmentedControl
-            className="mode-tabs mantine-mode-tabs"
-            value={mode}
-            onChange={setMode}
-            data={[
-              { value: 'inference', label: <span className="segment-label"><Zap size={18} />Inference</span> },
-              { value: 'finetune', label: <span className="segment-label"><Brain size={18} />Fine-tuning</span> }
-            ]}
-            size="md"
-            radius="md"
-          />
+          {activePage === 'calculator' && (
+            <section className="tab-panel calculator-workspace" aria-label="Calculator workspace">
+              <SegmentedControl
+                className="mode-tabs mantine-mode-tabs"
+                value={mode}
+                onChange={setMode}
+                data={[
+                  { value: 'inference', label: <span className="segment-label"><Zap size={18} />Inference</span> },
+                  { value: 'finetune', label: <span className="segment-label"><Brain size={18} />Fine-tuning</span> }
+                ]}
+                size="md"
+                radius="md"
+              />
 
-          <div className="layout-grid">
-            <section className="control-panel" aria-label="Calculator controls">
+              <div className="layout-grid">
+                <section className="control-panel" aria-label="Calculator controls">
               <div className="panel-heading">
                 <div>
                   <h2>Configure Run</h2>
-                  <p>Pick a model and serving shape. Every control updates the memory ledger instantly.</p>
+                  <p>Core model, hardware, precision, and workload inputs. Advanced sources and comparisons are separated.</p>
                 </div>
                 <Tooltip label="Advanced controls" withArrow>
                 <ActionIcon className="icon-button" variant="light" color="gray" size="xl" radius="md" type="button" onClick={() => setShowAdvanced((value) => !value)} aria-label="Toggle advanced details">
@@ -754,18 +770,21 @@ function App() {
               )}
 
               {showAdvanced && (
-                <div className="advanced-grid">
-                  <label className="field-group">
-                    <span>Custom VRAM / GPU</span>
-                    <small>Leave blank to use selected hardware.</small>
-                    <NumberInput min={1} step={1} value={customVram} onChange={(value) => setCustomVram(value === '' ? '' : String(value))} placeholder={`${selectedHardware.memoryGb} GB`} />
-                  </label>
-                  <label className="field-group">
-                    <span>Enable Offloading to CPU/RAM or NVMe</span>
-                    <small>Reduces resident KV pressure and adds latency.</small>
-                    <Switch checked={offload} onChange={(event) => setOffload(event.currentTarget.checked)} label={offload ? 'Enabled' : 'Disabled'} color="violet" size="md" />
-                  </label>
-                </div>
+                <>
+                  <div className="advanced-grid">
+                    <label className="field-group">
+                      <span>Custom VRAM / GPU</span>
+                      <small>Leave blank to use selected hardware.</small>
+                      <NumberInput min={1} step={1} value={customVram} onChange={(value) => setCustomVram(value === '' ? '' : String(value))} placeholder={`${selectedHardware.memoryGb} GB`} />
+                    </label>
+                    <label className="field-group">
+                      <span>Enable Offloading to CPU/RAM or NVMe</span>
+                      <small>Reduces resident KV pressure and adds latency.</small>
+                      <Switch checked={offload} onChange={(event) => setOffload(event.currentTarget.checked)} label={offload ? 'Enabled' : 'Disabled'} color="violet" size="md" />
+                    </label>
+                  </div>
+                  <ModelFacts model={selectedModel} />
+                </>
               )}
 
               <div className="divider" />
@@ -778,12 +797,10 @@ function App() {
               <ParameterSlider label="Sequence Length" help={mode === 'inference' ? 'Max tokens per input; impacts KV cache and activations.' : 'Training context length. Long sequences increase activation memory sharply.'} min={512} max={selectedModel.contextLength || 32768} step={512} marks={dynamicSequenceMarks(selectedModel.contextLength || 32768)} value={effectiveSequenceLength} onChange={setSequenceLength} formatter={formatNumber} />
               {mode === 'inference' && <ParameterSlider label="Concurrent Users" help="Number of users running inference simultaneously." min={1} max={32} marks={[1, 4, 8, 16, 32]} value={concurrentUsers} onChange={setConcurrentUsers} />}
 
-              <ModelFacts model={selectedModel} />
-              <EvidencePanel model={selectedModel} hardware={selectedHardware} benchmarks={matchingBenchmarks} />
-            </section>
+                </section>
 
-            <aside className="result-stack" aria-label="Results">
-              <section className="result-card hero-result">
+                <aside className="result-stack" aria-label="Results">
+                  <section className="result-card hero-result">
                 <div className="result-heading">
                   <div>
                     <h2>{mode === 'inference' ? 'Performance & Memory Results' : 'Fine-tuning Memory Results'}</h2>
@@ -831,13 +848,15 @@ function App() {
 
                 {mode === 'inference' && <RecommendationPanel recommendations={fitRecommendations} onApply={applyRecommendation} />}
 
-                <EstimatorDetails result={result} mode={mode} model={selectedModel} />
-                {mode === 'inference' && <PerformanceBasis model={selectedModel} />}
-              </section>
+                {showAdvanced && (
+                  <>
+                    <EstimatorDetails result={result} mode={mode} model={selectedModel} />
+                    {mode === 'inference' && <PerformanceBasis model={selectedModel} />}
+                  </>
+                )}
+                  </section>
 
-              {mode === 'inference' && <ObservedBenchmarks benchmarks={matchingBenchmarks} activeRuntime={result.runtimeProfile} result={result} sequenceLength={effectiveSequenceLength} />}
-
-              <section className="result-card">
+                  <section className="result-card">
                 <h2>Memory Allocation</h2>
                 <StackedBar segments={result.allocation} total={result.totalRequiredGb} />
                 <div className="allocation-grid">
@@ -850,33 +869,66 @@ function App() {
                     </div>
                   ))}
                 </div>
-              </section>
+                  </section>
 
-              <section className="result-card economy-card">
+                  <section className="result-card economy-card">
                 <Metric icon={<Cpu size={18} />} label="Power Draw" value={`${Math.round(result.powerW)}W`} />
                 <Metric icon={<Database size={18} />} label="Cost per Hour" value={`$${result.costPerHour.toFixed(3)}`} />
                 <Metric icon={<Sparkles size={18} />} label="CO₂/day" value={`${result.co2KgDay.toFixed(2)} kg`} />
-              </section>
-            </aside>
-          </div>
+                  </section>
+                </aside>
+              </div>
+            </section>
+          )}
 
-          <CompareProfiles
-            mode={mode}
-            profiles={compareProfiles}
-            modelOptions={modelOptions}
-            hardwareOptions={hardwareOptions}
-            batchSize={batchSize}
-            sequenceLength={sequenceLength}
-            concurrentUsers={concurrentUsers}
-            offload={offload}
-            runtimeProfile={runtimeProfile}
-            onAdd={addCompareProfile}
-            onClone={cloneCompareProfile}
-            onRemove={removeCompareProfile}
-            onUpdate={updateCompareProfile}
-          />
+          {activePage === 'compare' && (
+            <section className="tab-panel compare-workspace" aria-label="Compare profiles workspace">
+              <div className="workspace-intro">
+                <div>
+                  <h2>Profile Workspace</h2>
+                  <p>Clone and tune model/hardware profiles without crowding the calculator. Shared workload: batch {batchSize}, context {formatNumber(effectiveSequenceLength)}, {mode === 'inference' ? `${concurrentUsers} user${concurrentUsers === 1 ? '' : 's'}` : trainingMethod.toUpperCase()}.</p>
+                </div>
+                <Button variant="light" color="violet" leftSection={<Zap size={17} />} onClick={() => setActivePage('calculator')}>
+                  Edit Workload
+                </Button>
+              </div>
+              <CompareProfiles
+                mode={mode}
+                profiles={compareProfiles}
+                modelOptions={modelOptions}
+                hardwareOptions={hardwareOptions}
+                batchSize={batchSize}
+                sequenceLength={sequenceLength}
+                concurrentUsers={concurrentUsers}
+                offload={offload}
+                runtimeProfile={runtimeProfile}
+                onAdd={addCompareProfile}
+                onClone={cloneCompareProfile}
+                onRemove={removeCompareProfile}
+                onUpdate={updateCompareProfile}
+              />
+            </section>
+          )}
 
-          <ModelEvidenceLibrary />
+          {activePage === 'evidence' && (
+            <section className="tab-panel evidence-workspace" aria-label="Evidence and benchmarks workspace">
+              <div className="workspace-intro">
+                <div>
+                  <h2>Evidence & Benchmarks</h2>
+                  <p>Source links, exact citation snippets, and observed run data live here so the calculator stays focused.</p>
+                </div>
+                <Button variant="light" color="violet" leftSection={<Zap size={17} />} onClick={() => setActivePage('calculator')}>
+                  Back to Calculator
+                </Button>
+              </div>
+              <div className="evidence-current-grid">
+                <EvidencePanel model={selectedModel} hardware={selectedHardware} benchmarks={matchingBenchmarks} />
+                {mode === 'inference' && <PerformanceBasis model={selectedModel} />}
+              </div>
+              {mode === 'inference' && <ObservedBenchmarks benchmarks={matchingBenchmarks} activeRuntime={result.runtimeProfile} result={result} sequenceLength={effectiveSequenceLength} />}
+              <ModelEvidenceLibrary />
+            </section>
+          )}
         </section>
       </div>
     </main>
